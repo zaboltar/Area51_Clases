@@ -12,8 +12,8 @@ namespace TestProjectAlpha {
 
             Console.Clear();
 
-            for (int i = 0, i < hiddenWord.Length, i++) {
-                shownWord += '*'
+            for (int i = 0; i < hiddenWord.Length; i++) {
+                shownWord += '*';
             }
 
            Console.WriteLine(shownWord);
