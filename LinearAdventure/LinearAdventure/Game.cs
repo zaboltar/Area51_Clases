@@ -10,6 +10,7 @@ namespace LinearAdventure {
         bool isDone;
         string [] enunciadoHistoria;
         int storyProgression = 1;
+        string[] opciones;
 
         public void Run() {
             Initialize();
@@ -22,12 +23,17 @@ namespace LinearAdventure {
         void Initialize() {
 
             enunciadoHistoria = new string[4];
+            opciones = new string[4];
+
             enunciadoHistoria[0] = "Tomaste una mala decision y has perdido";
             enunciadoHistoria[1] = "Has entrado a la taberna. \n1. Pedir cerveza. \n2. Buscar problemas.";
             enunciadoHistoria[2] = "Pides cerveza, puedes oir una pelea de orcos. \n1. Ignorarlo. \n2. Entrometerse.";
             enunciadoHistoria[3] = "algo3";
 
+            opciones[1] = "1";
+                //agregar
 
+            
             Console.WriteLine("Bienvenido a una aventura linear \nPresiona Enter para iniciar");
             Console.ReadLine();
             Console.Clear();
@@ -40,7 +46,7 @@ namespace LinearAdventure {
             
             choice = Console.ReadLine();
 
-            if (choice == "1") {
+            if (choice == opciones[storyProgression]) {
                 storyProgression++;
             } else {
                 storyProgression = 0;
