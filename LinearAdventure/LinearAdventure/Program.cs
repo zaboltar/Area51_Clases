@@ -8,6 +8,7 @@ namespace LinearAdventure {
     class Program {
         static void Main(string[] args) {
 
+        	// Console.Beep();
             Game game = new Game();
             game.Run();
             
