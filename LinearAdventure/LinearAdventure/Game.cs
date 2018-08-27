@@ -25,50 +25,255 @@ namespace LinearAdventure {
             enunciadoHistoria = new string[400];
             opciones = new string[400];
 
-            enunciadoHistoria[0] = "Tomaste una mala decision y has perdido.";
+            enunciadoHistoria[0] = @"Tomaste una mala decision y has perdido la Línea de la Victoria.
+             ___          
+            /   \\        
+       /\\ | . . \\       
+     ////\\|     ||       
+   ////   \\ ___//\       
+  ///      \\      \      
+ ///       |\\      |     
+//         | \\  \   \    
+/          |  \\  \   \   
+           |   \\ /   /   
+           |    \/   /    
+           |     \\/|     
+           |      \\|     
+           |       \\     
+           |        |     
+           |_________\    
+     from Dustin Slater";
+
             enunciadoHistoria[1] = "Has entrado a la taberna. \n1. Pedir cerveza. \n2. Buscar problemas.";
             opciones[1] = "1";
-            enunciadoHistoria[2] = "Pides cerveza, puedes oir una pelea de orcos. \n1. Ignorarlo. \n2. Entrometerse.";
-            opciones[2] = "1";
+            enunciadoHistoria[2] = @"Pides una pinta de cerveza. Unos borrachos empiezan a pelear.
+
+ .   *   ..  . *  *
+*  * @()Ooc()*   o  .
+   (Q@*0CG*O()  ___
+  |\_________/|/ _ \
+  |  |  |  |  | / | |
+  |  |  |  |  | | | |
+  |  |  |  |  | | | |
+  |  |  |  |  | | | |
+  |  |  |  |  | | | |
+  |  |  |  |  | \_| |
+  |  |  |  |  |\___/  by: Elissa Potier
+  |\_|__|__|_/|       
+   \_________/
+
+1. Ignorarlo.
+2. Entrometerse.";
+
             enunciadoHistoria[3] = "La violencia empieza a viralizarse en el local \n1. Seguir Tomando. \n2. Buscar otro lugar.";
             opciones[3] = "2";
-            enunciadoHistoria[4] = "Sales a una callejuela con diversos locales \n1. Ir al templo de caníbales \n2. Ir al cruce de caminos.";
+            enunciadoHistoria[4] = @"Sales a una callejuela con diversos locales. 
+
+~         ~~          __
+       _T      .,,.    ~--~ ^^
+ ^^   // \                    ~
+      ][O]    ^^      ,-~ ~
+   /''-I_I         _II____
+__/_  /   \ ______/ ''   /'\_,__
+  | II--'''' \,--:--..,_/,.-{ },
+; '/__\,.--';|   |[] .-.| O{ _ }
+:' |  | []  -|   ''--:.;[,.'\,/
+'  |[]|,.--'' '',   ''-,.    |
+  ..    ..-''    ;       ''. '
+
+1. Ir al templo de caníbales.
+2. Ir al cruce de caminos.";
+
             opciones[4] = "2";
             enunciadoHistoria[5] = "Hay dos caminos en el cruce. \n1. Hacia Pueblo Sangriento.  \n2. Hacia Pueblo Linear.";
             opciones[5] = "2";
             enunciadoHistoria[6] = "Bienvenido a pueblo linear. \n1. Seguir la línea del camino. \n2. Circular la plaza central.";
             opciones[6] = "1";            
-            enunciadoHistoria[7] = "El camino conduce a un lejano volcán. \n1. Leer el letrero. \n2. Ignorar el letrero.";
+            enunciadoHistoria[7] = @"El camino conduce a un lejano volcán.
+                                               _
+                 ___                          (_)
+               _/XXX\
+_             /XXXXXX\_                                    __
+X\__    __   /X XXXX XX\                          _       /XX\__      ___
+    \__/  \_/__       \ \                       _/X\__   /XX XXX\____/XXX\
+  \  ___   \/  \_      \ \               __   _/      \_/  _/  -   __  -  \__/
+ ___/   \__/   \ \__     \\__           /  \_//  _ _ \  \     __  /  \____//
+/  __    \  /     \ \_   _//_\___     _/    //           \___/  \/     __/
+__/_______\________\__\_/________\_ _/_____/_____________/_______\____/_______
+                                  /|\
+                                 / | \
+                                /  |  \
+                               /   |   \
+                              /    |    \
+                 ------      /     |     \
+                 |    |     /      |      \
+                 |    |    /       |       \
+                 ------   /        |        \
+                   |     /         |         \
+1. Leer el letrero.
+2. Ignorar el letrero.";
+
             opciones[7] = "1";            
-            enunciadoHistoria[8] = " NO IR AL VOLCÁN \n1.Oblígame, Prro. Ir. \n2. Regresar al camino linear.";
+            enunciadoHistoria[8] = @"NO IR AL VOLCÁN 
+
+ ____________________
+/         NO         \
+!        IR AL       !
+!       VOLCÁN !!!   !
+\____________________/
+         !  !
+         !  !
+         L_ !
+        / _)!
+       / /__L
+ _____/ (____)
+        (____)
+ _____  (____)
+      \_(____)
+         !  !
+         !  !
+         \__/   
+
+1. Oblígame, Prro. Ir al volcán.
+2. Regresar al camino linear.";
+
             opciones[8] = "2";           
             enunciadoHistoria[9] = "Al volver, notas un importante objeto. \n1. Inspeccionar el importante objeto. \n2. Bah, no es importante.";
             opciones[9] = "1";            
             enunciadoHistoria[10] = "Felicidades. Has encontrado un arma. \n1. Observar detenidamente. \n2. Ignorar. \n3. Reiniciar Partida.";
             opciones[10] = "1";            
-            enunciadoHistoria[11] = "El arma es una espada larga de acero. \n1. Elevar a los cielos y calcular su poder. \n2. Probar el filo con el cuello.";
+            enunciadoHistoria[11] = @"El arma es una espada larga de acero. 
+
+      /|
+     |\|
+     |||
+     |||
+     |||
+     |||
+     |||
+     |||
+  ~-[{o}]-~
+     |/|
+     |/|
+     `0'    
+
+1. Elevar a los cielos y calcular su poder.
+2. Probar el filo con el cuello.";
+
             opciones[11] = "1";            
             enunciadoHistoria[12] = "Mientras sopesas su gran poder un grito se oye a lo lejos. \n1. Huir despavorido de modo sospechoso. \n2. Mantener la postura y esperar.";
             opciones[12] = "2";            
-            enunciadoHistoria[13] = "Una anciana te confunde con un paladín y reclama que salves a su gato. \n1. Negarse rotundamente. \n2. Ayudarla noblemente.";
+            enunciadoHistoria[13] = @"Una anciana te confunde con un paladín y reclama que salves a su gato.
+
+ _._     _,-'""`-._
+(,-.`._,'(       |\`-/|
+    `-.-' \ )-`( , o o)
+          `-    \`_`¨'-
+
+1. Negarse rotundamente.
+2. Ayudarla noblemente.";
+
             opciones[13] = "2";            
-            enunciadoHistoria[14] = "Su gato está en lo alto de una torre. \n1. Trepar por los muros. \n2. Usar las escaleras.";
+            enunciadoHistoria[14] = @"Su gato está en lo alto de una torre.
+
+                                      |>>>
+                                      |
+                                  _  _|_  _
+                                 |;|_|;|_|;|
+                                 \\.    .  /
+                                  \\:  .  /
+                                   ||:   |
+                                   ||:.  |
+                                   ||:  .|
+                                   ||:   |       \,/
+                                   ||: , |            /`\
+                                   ||:   |
+                                   ||: . |
+    __                            _||_   |
+`~    '--~~__            __ ----~    ~`---,              ___
+            ~---__ ,--~'                  ~~----_____-~'   `~----~~
+
+1. Trepar por los muros.
+2. Usar las escaleras.";
+
             opciones[14] = "2";            
-            enunciadoHistoria[15] = "Desde una ventana logras alcanzar al gato. \n1. Extenderle el brazo amigablemente. \n2. Asustarlo con gritos demoníacos.";
+            enunciadoHistoria[15] = @"Desde una ventana logras alcanzar al gato.
+
+Art by Marcin Glinski
+                   .-.
+                  / /
+                 / |
+   |\     ._ ,-""  `.
+   | |,,_/  7        ;
+ `;=     ,=(     ,  /
+  |`q  q  ` |    \_,|
+ .=; <> _ ; /  ,/'/ |
+';|\,j_ \;=\ ,/   `-'
+    `--'_|\  )
+   ,' | /  ;'
+  (,,/ (,,/      
+
+1. Extenderle el brazo amigablemente.
+2. Asustarlo con gritos demoníacos.";
+
             opciones[15] = "1";            
-            enunciadoHistoria[16] = "Felicidades la anciana te ha recompensado con 1 moneda de oro. \n1. Agradecerle. \n2. Amenazarla por más.";
+            enunciadoHistoria[16] = @"Felicidades la anciana te ha recompensado con 1 moneda de oro.
+
+          __-----__
+     ..;;;--'~~~`--;;;..
+   /;-~IN LINE WE TRUST~-.\
+  //      ,;;;;;;;;      \\
+.//      ;;;;;    \       \\
+||       ;;;;(   /.|       ||
+||       ;;;;;;;   _\      ||
+||       ';;  ;;;;=        ||
+||AREA 51 | ''\;;;;;;      ||
+ \\     ,| '\  '|><| 2018 //
+  \\   |     |      \   //
+   `;.,|.    |      '\.-'/
+     ~~;;;,._|___.,-;;;~'
+         ''=--'
+
+1. Agradecerle.
+2. Amenazarla por más.";
+
             opciones[16] = "1";            
             enunciadoHistoria[17] = "Un mercader errante ha visto tus proezas y te ofrece algo único. \n1. Mandarlo al infierno. \n2. Atender su oferta.";
             opciones[17] = "2";            
             enunciadoHistoria[18] = "Por una moneda, puede darte una armadura. \n1. Clavarle la espada y robarle. \n2. Aceptar su oferta.";
             opciones[18] = "2";            
-            enunciadoHistoria[19] = "Ahora estas cubierto de placas de metal. \n1. Ir a nadar.  \n2. Buscar Aventuras.";
+            enunciadoHistoria[19] = @"Ahora estas cubierto de placas de metal.
+  __  __
+ )HH\/HH(
+|XXXXXXXX|
+|HHHHHHHH|
+|XXXXXXXX|
+ ||||||||
+
+1. Ir a nadar.
+2. Buscar Aventuras.";
+
             opciones[19] = "2";            
             enunciadoHistoria[20] = "No hay aventuras disponibles, pero siempre queda el pillaje. \n1. Incendiar la aldea. \n2. Esperar un momento oportuno.";
             opciones[20] = "2";            
             enunciadoHistoria[21] = "Luego de descansar y desayunar apropiadamente, estás listo. \n1. Mantener la línea. \n2. Poner punto final a la aventura.";
             opciones[21] = "1";            
-            enunciadoHistoria[22] = "Un sacerdote del pueblo ha visto el potencial en ti. \n1. Pedir la bendición.";
+            enunciadoHistoria[22] = @"Un sacerdote del pueblo ha visto el potencial en ti.
+    _     _
+   /.\   ( )
+  / T \   \\
+  \,-./    \
+  ( oo)  /\{}
+   \_=/ /  \ \
+  //  \/ ,'   \
+ ||    |'      \
+ ||    |        \
+ m|    |
+  |____|
+    `-`-
+
+1. Pedir la bendición.";
+
             opciones[22] = "1";            
             enunciadoHistoria[23] = "Felicidades. Ahora eres conocido como el paladín de la línea. \n1. Ganar el juego. \n2. Reiniciar aventura.";
             opciones[23] = "1";
@@ -151,7 +356,19 @@ namespace LinearAdventure {
 
 
 
-            Console.WriteLine("Bienvenido a una Aventura Linear \nPresiona ENTER para continuar");
+            Console.WriteLine(@"Bienvenido a una Aventura Linear
+
+Presiona ENTER para continuar
+   
+    _____________________
+   /  __________________()
+  /  /|_________________ 
+ /  /_/________________()
+/______________________
+|_____________________()   
+Escher art by Michael Naylor
+
+");
             Console.ReadLine();
             Console.Clear();
         }
