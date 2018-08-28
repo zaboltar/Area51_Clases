@@ -165,7 +165,7 @@ __/_______\________\__\_/________\_ _/_____/_____________/_______\____/_______
             opciones[12] = "2";            
             enunciadoHistoria[13] = @"Una anciana te confunde con un paladín y reclama que salves a su gato.
 
- _._     _,-'""`-._
+ _._     _,-'´´`-._
 (,-.`._,'(       |\`-/|
     `-.-' \ )-`( , o o)
           `-    \`_`¨'-
@@ -203,7 +203,7 @@ Art by Marcin Glinski
                    .-.
                   / /
                  / |
-   |\     ._ ,-""  `.
+   |\     ._ ,-´´  `.
    | |,,_/  7        ;
  `;=     ,=(     ,  /
   |`q  q  ` |    \_,|
@@ -277,65 +277,265 @@ Art by Marcin Glinski
             opciones[22] = "1";            
             enunciadoHistoria[23] = "Felicidades. Ahora eres conocido como el paladín de la línea. \n1. Ganar el juego. \n2. Reiniciar aventura.";
             opciones[23] = "1";
-            enunciadoHistoria[24] = "Felicidades. Has ganado el juego. \nHabrán memes sobre tus hazañas lineares. \n1. Continuar aventura. \n2. Perder en el último segundo.";
+            enunciadoHistoria[24] = @"Felicidades. Has ganado el juego. 
+Habrán memes sobre tus hazañas lineares.
+
+     _______________
+    |@@@@| 666 |####|
+    |@@@@|     |####|
+    |@@@@|     |####|
+    \@@@@|     |####/
+     \@@@|     |###/
+      `@@|_____|##'
+           (O)
+        .-'''''-.
+      .'  * * *  `.
+     :  *       *  :
+    : ~  LINEAR   ~ :
+    : ~ ADVENTURE ~ :
+     :  *       *  :
+jgs   `.  * * *  .'
+        `-.....-'
+
+ 1. Continuar aventura.
+ 2. Perder en el último segundo.";
+
             opciones[24] = "1";
 
-            enunciadoHistoria[25] = "Un rey muy poderoso requiere de tu presencia. \n1.  \n2. ";
-            opciones[25] = "1";
+            enunciadoHistoria[25] = @"Un rey muy poderoso requiere de tu presencia.
 
-            enunciadoHistoria[26] = "Te someterá a 3 pruebas\n1.  \n2. ";
+Art by Joan Stark
+       _.+._
+     (^\/^\/^)
+      \@*@*@/
+      {_____}
+
+1. Asistir sin dudar.
+2. Mandar al demonio al rey; VIVA LA REVOLUCIÖN!";
+
+            opciones[25] = "1";
+            enunciadoHistoria[26] = "El rey desea probar tus habilidades. Te someterá a 3 pruebas \n1. Comenzar pruebas \n2. Cometer regicidio.";
             opciones[26] = "1"; 
-            enunciadoHistoria[27] = "de fuerza \n1.  \n2. ";
+            enunciadoHistoria[27] = @"En primer lugar, debes demostrar tu fuerza. 
+
+             X
+      |_O   / \  O_\
+        |`-/   \-'\
+        |\       / |
+       /  |      |  \
+
+1. Retar a su mejor guerrero.
+2. Cargar a la reina en peso.";
+
             opciones[27] = "1";
-            enunciadoHistoria[28] = "de sabiduría \n1.  \n2. ";
-            opciones[28] = "1"; 
-            enunciadoHistoria[29] = "de nobleza \n1.  \n2. ";
-            opciones[29] = "1";
-            enunciadoHistoria[30] = "\n1.  \n2. ";
+            enunciadoHistoria[28] = @"Lograste vencerlo, ahora un anciano de su concejo te pregunta:
+Cuál de estos nombres NO es un filosofo?
+
+,         ,
+|\\\\ ////|
+| \\\V/// |
+|  |~~~|  |
+|  |===|  |
+|  |e  |  |
+|  | g |  |
+ \ |  c! /
+  \|===|/
+   '---'
+
+1. Aristóteles.
+2. Hegel.
+3. El gordo Cassaretto.";
+            opciones[28] = "3"; 
+            enunciadoHistoria[29] = "Ciertamente eres de un saber adecuado. Debes prepararte para la prueba final. \n1. Oblígame, Prro!  \n2. Prepararse.";
+            opciones[29] = "2";
+            enunciadoHistoria[30] = "Debes ir a un viejo castillo y rescatar a la princesa. \n1. Pos ni modo. \n2. Romper la línea del compromiso.";
             opciones[30] = "1"; 
-            enunciadoHistoria[31] = "\n1.  \n2. ";
-            opciones[31] = "1";
-            enunciadoHistoria[32] = "\n1.  \n2. ";
+            enunciadoHistoria[31] = @"Un arquero espera para combatirte.
+
+                   .;;,.
+                  ; '. ;\ \//
+                 \|a (a|7 \//
+                 j| ..  | ||/
+                //'.--.')\-,/
+              .-||- '' ||/  `-.
+             ;  | \ |/ |/ L.  ,|
+             f\ |\| Y  || \ '._\
+            j | \|     (| |   | |
+           |  L_\         L.__: |
+            \(  '-.,-,    |   ; |Shanaka Dias
+             |'-.'.L_rr>  f--f  |
+.-=,,______,--------- J-. ;  ;__ 
+   ``.-,__   |  |      h  |  f  '--.__
+       `--;;--,_       h  f-j   |   __;==-.
+            / `-''-,,__J,'  \_..--:'-'     '
+            | |    `' --L7//'-'`|
+            | ,     ||  h    |  (
+            | ;     | \ J    j   |
+            | L__   | |  L_.'    |
+
+1. Quedarse parado.
+2. Aniquilarlo heroicamente.";
+
+            opciones[31] = "2";
+            enunciadoHistoria[32] = @"Llegas al castillo. Es una bella fortaleza. 
+
+               T~~
+               |
+              /¨\
+      T~~     |'| T~~
+  T~~ |    T~ WWWW|
+  |  /´\   |  |  |/\T~~
+ /´\ WWW  /´\ |' |WW|
+WWWWW/\| /   \|'/\|/´\
+|   /__\/]WWW[\/__\WWWW
+|   WWWW'|I_I|'WWWW'  |
+|   |' |/  -  \|' |'  |
+|'  |  |LI=H=LI|' |   |
+|   |' | |[_]| |  |'  |
+|   |  |_|###|_|  |   |
+'---'--'-/___\-'--'---'
+
+1. Tocar la puerta.
+2. Gritar insolencias para ser atendido. ";
+
             opciones[32] = "1"; 
-            enunciadoHistoria[33] = "\n1.  \n2. ";
+            enunciadoHistoria[33] = "Una monja te deja pasar y te pregunta tus intenciones. \n1. Salvar a la princesa. \n2. Asesinar a la princesa.";
             opciones[33] = "1";
-            enunciadoHistoria[34] = "\n1.  \n2. ";
+            enunciadoHistoria[34] = @"Para salvar a la princesa, debes vencer al Conde del Tríangulo.
+
+Art by llizard
+             /
+       /_O  X
+        /`-/ \   O_\
+       | \    \-'_\
+      /  /       \ |_
+
+1. Aplicar el teorema de Pitágoras.";
+
             opciones[34] = "1"; 
-            enunciadoHistoria[35] = "\n1.  \n2. ";
-            opciones[35] = "1";
-            enunciadoHistoria[36] = "\n1.  \n2. ";
+            enunciadoHistoria[35] = @"Felicidades, has rescatado a la princesa.
+              ___
+            ,'/|\`.
+           :,',^.`.:
+           |,'_ _`.|
+           |:`*)*';|
+           ;|\ _ /|:
+        ,-(||.)-(.||)-.
+       |'  \|(\ /)|/  `|
+       `:. (  `|'  ) .;'
+        | : \ ,^. / : |
+       ,'`'\-`.._/_/; |
+       `:=..-...______;_
+       \`\ \'`. .-'\`: /
+       ;' \ \/|  \_,\ `:
+      /  / \ \;   \  \ .\
+     / //  _) `.'--`-----,
+
+1. Pedirla como recompensa.
+2. Regresar al Rey.";
+
+            opciones[35] = "2";
+            enunciadoHistoria[36] = "El rey está satisfecho con los resultados. Te ofrece una misión. \n1. Atender";
             opciones[36] = "1"; 
-            enunciadoHistoria[37] = "\n1.  \n2. ";
-            opciones[37] = "1";
-            enunciadoHistoria[38] = "\n1.  \n2. ";
+            enunciadoHistoria[37] = "Debes buscar 3 arañas. Matarlas y regresar. \n1. Andate bien lejos, Rey Abusivo.  \n2. Cumplir la misión real.";
+            opciones[37] = "2";
+            enunciadoHistoria[38] = @"La primera araña está en un sótano. 
+ 
+ ||  ||  
+ \\()// 
+//(__)\\
+||    ||
+
+1. Matarla.
+2. Perdonarle la vida.";
             opciones[38] = "1"; 
-            enunciadoHistoria[39] = "\n1.  \n2. ";
+            enunciadoHistoria[39] = @"La segunda araña está en un viejo templo.
+
+  / _ \
+\_\(_)/_/
+ _//¨\\_  Max
+  /   \
+
+1. Matarla
+2. Dejarse morder por ella. ";
+
             opciones[39] = "1";
-            enunciadoHistoria[40] = "\n1.  \n2. ";
+            enunciadoHistoria[40] = @"La última araña está escondida.
+1.Encontrarla y matarla.
+2.Perder la partida. ";
+
             opciones[40] = "1"; 
-            enunciadoHistoria[41] = "\n1.  \n2. ";
+            enunciadoHistoria[41] = "Bien hecho. Al regresar, el rey está complacido. \n1. Continuar.";
             opciones[41] = "1";
-            enunciadoHistoria[42] = "\n1.  \n2. ";
+            enunciadoHistoria[42] = @"Con las tres arañas, un mago realiza una poción.
+
+      )  (
+     (   ) )
+      ) ( (
+ mrf_______)_
+   '---------|  
+   |/\/\/\/\/|
+   ./\/\/\/\/|
+   '_________'
+    '-------'
+
+1. Esperar a que termine.
+2. Beberla incompleta.";
+
             opciones[42] = "1"; 
-            enunciadoHistoria[43] = "\n1.  \n2. ";
+            enunciadoHistoria[43] = @"El rey te pide que lleves esa poción al bosque encantado. 
+
+           (                 ,&&&.
+            )                .,.&&
+           (  (              \=__/
+               )             ,'-'.
+         (    (  ,,      _.__|/ /|
+          ) /\ -((------((_|___/ |
+        (  // | (`'      ((  `'--|
+      _ -.;_/ \\--._      \\ \-._/.
+     (_;-// | \ \-'.\    <_,\_\`--'|
+     ( `.__ _  ___,')      <_,-'__,'
+jrei  `'(_ )_)(_)_)'
+
+1. Y luego qué? ";
+
             opciones[43] = "1";
-            enunciadoHistoria[44] = "\n1.  \n2. ";
+            enunciadoHistoria[44] = "Debes buscar el arbol más hermoso. Usar la poción en él. \n1. Aceptar. \n2. Hacer un reclamo ecologista.";
             opciones[44] = "1"; 
-            enunciadoHistoria[45] = "\n1.  \n2. ";
-            opciones[45] = "1";
-            enunciadoHistoria[46] = "\n1.  \n2. ";
+            enunciadoHistoria[45] = "Tienes la misión.... a donde ir ? \n1. Al volcán.  \n2. Al bosque encantado. \n3. Al congreso de la república.  ";
+            opciones[45] = "2";
+            enunciadoHistoria[46] = "Estás en el bosque encantado, que buscas? \n1. El árbol más hermoso. \n2. El árbol mas frondoso.";
             opciones[46] = "1"; 
-            enunciadoHistoria[47] = "\n1.  \n2. ";
+            enunciadoHistoria[47] = "Lo has encontrado ... Qué hacer? \n1. Verter la poción.  \n2. Tomarse la poción.";
             opciones[47] = "1";
-            enunciadoHistoria[48] = "\n1.  \n2. ";
+            enunciadoHistoria[48] = @"Al hacerlo, el árbol se convierte en un sapo.
+
+         o  o   o  o
+         |\/ \^/ \/|
+         |,-------.|
+       ,-.(|)   (|),-.
+       \_*._ ' '_.* _/
+        /`-.`--' .-'\
+   ,--./    `---'    \,--.
+   \   |(  )     (  )|   /
+hjw \  | ||       || |  /
+`97  \ | /|\     /|\ | /
+     /  \-._     _,-/  \
+    //| \\  `---'  // |\\
+   /,-.,-.\       /,-.,-.\
+  o   o   o      o   o    o
+
+1. Tomar al sapo y regresar.  
+2. Lamer al sapo antes comerlo.";
+
             opciones[48] = "1"; 
-            enunciadoHistoria[49] = "\n1.  \n2. ";
+            enunciadoHistoria[49] = "Ante el rey, presentas al sapo. \n1. Continuar.";
             opciones[49] = "1";
-            enunciadoHistoria[50] = "\n1.  \n2. ";
+            enunciadoHistoria[50] = "Este es un viejo amigo, un rey lejano, pero está bajo un hechizo. \n1. Preguntar cómo deshacer el embrujo. \n2. Hacerse el loco y retirarse silenciosamente.";
             opciones[50] = "1"; 
-            enunciadoHistoria[51] = "\n1.  \n2. ";
+            enunciadoHistoria[51] = "Para revertir la magia, hay que asesinar a la bruja Cuadrada. \n1. Preguntar por su ubicación. \n2. Negarse, las brujas tienen sentimientos. ";
             opciones[51] = "1";
-            enunciadoHistoria[52] = "\n1.  \n2. ";
+            enunciadoHistoria[52] = "La bruja habita en pueblo Tetralinear. \n1. Ir.  \n2. Finalizar aventura.";
             opciones[52] = "1"; 
             enunciadoHistoria[53] = "\n1.  \n2. ";
             opciones[53] = "1";
