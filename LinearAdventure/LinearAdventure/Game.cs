@@ -64,7 +64,7 @@ namespace LinearAdventure {
 
 1. Ignorarlo.
 2. Entrometerse.";
-
+            opciones[2] = "1";
             enunciadoHistoria[3] = "La violencia empieza a viralizarse en el local \n1. Seguir Tomando. \n2. Buscar otro lugar.";
             opciones[3] = "2";
             enunciadoHistoria[4] = @"Sales a una callejuela con diversos locales. 
