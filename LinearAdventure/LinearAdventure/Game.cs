@@ -535,18 +535,78 @@ hjw \  | ||       || |  /
             opciones[50] = "1"; 
             enunciadoHistoria[51] = "Para revertir la magia, hay que asesinar a la bruja Cuadrada. \n1. Preguntar por su ubicación. \n2. Negarse, las brujas tienen sentimientos. ";
             opciones[51] = "1";
+
+
+
+
+            // hasta aquí la 1era entrega....a continuación: la línea se extiende.
+
+
+
+
+
             enunciadoHistoria[52] = "La bruja habita en pueblo Tetralinear. \n1. Ir.  \n2. Finalizar aventura.";
             opciones[52] = "1"; 
-            enunciadoHistoria[53] = "\n1.  \n2. ";
-            opciones[53] = "1";
-            enunciadoHistoria[54] = "\n1.  \n2. ";
-            opciones[54] = "1"; 
-            enunciadoHistoria[55] = "\n1.  \n2. ";
-            opciones[55] = "1";
-            enunciadoHistoria[56] = "\n1.  \n2. ";
+            enunciadoHistoria[53] = "Bienvenido al lejano pueblo Tetralinear, Hogar de la bruja Cuadrada \n1. Circular la plaza central. \n2. Triangular las torres de vigilancia. \n3. Cuadrar la carreta con los caballos.";
+            opciones[53] = "3";
+            enunciadoHistoria[54] = "En el establo un sujeto se admira por tu gallarda presencia. \n1. Asesinarlo. \n2. Saludarlo cordialmente.";
+            opciones[54] = "2"; 
+            enunciadoHistoria[55] = "El extraño te pregunta por tu visita al pueblo Tetralinear. \n1. Vengo de compras.  \n2. Vengo de vacaciones. \n3. Vengo en una importante misión.";
+            opciones[55] = "3";
+            enunciadoHistoria[56] = "El extraño se entusiasma. Te advierte que tengas cuidado con la bruja del pueblo. \n1. Preguntar a qué se refiere.";
             opciones[56] = "1"; 
-
-
+            enunciadoHistoria[57] = "Hay una bruja que atormenta aldeanos; incluso se dice que hechizó al rey y lo reemplazó. \n1. Clavarle la espada antes que devele información esencial.  \n2. Seguir escuchando.";
+            opciones[57] = "2";
+            enunciadoHistoria[58] = "La bruja gusta disfrazarse de niña ciega y pedir ayuda en la taberna. \n1. Agradecerle y partir a la taberna. \n2. Agradecerle y partirlo a la mitad. \n3. Agradecerle e ir caminando al volcán lejano.";
+            opciones[58] = "1";
+            enunciadoHistoria[59] = "La taberna parece un lugar muy tranquilo. \n1. Pedir una cerveza. \n2. Buscar problemas injustificadamente.";
+            opciones[59] = "1";
+            enunciadoHistoria[60] = "Unos orcos pelean entre sí. La violencia empieza a viralizarse. \n1. Un momento...ya he estado en una situación similar. \n2. Reventar la pinta de cerveza en la cabeza del cantinero.";
+            opciones[60] = "1";
+            enunciadoHistoria[61] = "Mientras te envuelves en los recuerdos de un pasado a-cíclico una vieja se acerca a pedirte ayuda. \n1. Olvidar misión y ayudarla. \n2. Disculparse y prometer ayuda luego.";
+            opciones[61] = "2";
+            enunciadoHistoria[62] = "La vieja se retira triste y se acerca una niña aparentemente ciega. \n1. Empuñar la espada. \n2. Salir a hacer yoga.";
+            opciones[62] = "1";
+            enunciadoHistoria[63] = "La niña ciega te ha pedido ayuda. \n1. Ayudarla ciegamente. \n2. Atacar a la niña ciega.";
+            opciones[63] = "2";
+            enunciadoHistoria[64] = "De un espadazo la regresas a su forma de Bruja. \n1. Dejarse enamorar por la bruja y rendirse. \n2. Convertir a la bruja Cuadrada en dos triángulos iguales.";
+            opciones[64] = "2";
+            enunciadoHistoria[65] = "La bruja cuadrada ahora consiste en dos triángulos \n1. Aplicar el teorema de Pitágoras e integrar ambos triángulos.";
+            opciones[65] = "1";
+            enunciadoHistoria[66] = "La bruja ha sido debilitada y se rinde. \n1. Exhortarla a deshacer el hechizo del rey sapo. \n2. Pedir que te convierta en dragón.";
+            opciones[66] = "1";
+            enunciadoHistoria[67] = "La bruja accede, y se alivia de que no seas otro loquito que busca ser un dragón. \n1. Si, eso nunca resulta bien.";
+            opciones[67] = "1";
+            enunciadoHistoria[68] = "Felicidades, has derrotado a la bruja y has deshecho su maleficio. \n1. Volver triunfante a pueblo Linear. \n2. Perder el sentido de la dirección de la vida y arrebatarse el aliento.";
+            opciones[68] = "1";
+            enunciadoHistoria[69] = "Felicidades, te has sobrepuesto a la angustia existencial \n1. Ok, el tormento humano se manifestará de otras formas.";
+            opciones[69] = "1";
+            enunciadoHistoria[70] = "Felicidades, te has vuelto consciente de la condición humana. \n1. Trascender este juego y dejar de jugar. \n2. Trascender este juego y continuar la aventura.";
+            opciones[70] = "2";
+            enunciadoHistoria[71] = "Bienvenido a Pueblo Linear, eres recibido como un héroe. \n1. Saludar con gracia.  \n2. Plottwist: deschavetarse y asesinar inocentes.";
+            opciones[71] = "1";
+            enunciadoHistoria[72] = "Justo antes de llegar a la sala del trono, la vieja del pueblo Tetralinear te alcanza \n1. Oh.. olvidé la promesa.";
+            opciones[72] = "1";
+            enunciadoHistoria[73] = "La pobre vieja interpone la dignidad de la palabra por sobre la solemnidad de atender al mismísimo Rey. \n1. No puedes colocarme en una situación tan compleja cuando se ofrecen opciones limitadas.";
+            opciones[73] = "1";
+            enunciadoHistoria[74] = "La vieja se limita a rogarte de que te encargues de la malvada bruja Cuadrada \n1. Olvídalo, afronta tus propios problemas. \n2. La bruja Cuadrada ya no es un problema!";
+            opciones[74] = "2";
+            enunciadoHistoria[75] = "La anciana llora de alegría y te deja paso a la sala del trono. \n1. Entrar ceremoniosamente como un paladín. \n2. Empezar todo el juego desde el inicio.";
+            opciones[75] = "1";
+            enunciadoHistoria[76] = "Ambos reyes te saludan, has demostrado gran sagacidad y noble discernimiento. \n1.Solo tuve que presionar botones. \n2. Matar a ambos reyes y hacerse de dos pueblos.";
+            opciones[76] = "1";
+            enunciadoHistoria[77] = "Tu bondad y humildad admiran al rey de pueblo Tetralinear. Te ofrece casarse con su hija, la princesa. \n1. No estaba en mis planes, pero acepto. \n2. Si es bonita, podría aceptar, se parece a ud.?";
+            opciones[77] = "1";
+            enunciadoHistoria[78] = "Ahora serás conocido como el Paladín de la Línea, heredero al trono de pueblo Tetralinear. \n1. Organizar un banquete.";
+            opciones[78] = "1";
+            enunciadoHistoria[79] = "Pocas celebraciones han tenido tanta pompa y exhuberancia como el festejo de sus nupcias. \n1. Confesar que sólo eres un aldeano que se encontró una espada. \n2. Servirse postre! ";
+            opciones[79] = "2";
+            enunciadoHistoria[80] = "El postre está delicioso ... un sirviente te ofrece más. \n1. Aceptar dos o tres porciones más \n2. No aceptar; hay que mantener la línea.";
+            opciones[80] = "2";
+            enunciadoHistoria[81] = "Felicidades ... has completado la aventura linear y has formado una familia con sangre real. \n1. Yeeee.";
+            opciones[81] = "1";
+            enunciadoHistoria[82] = "Gracias por llegar tan lejos. Muchos beneficiados recordarán para siempre tus bondadosos actos. \n1. Finalizar.";
+            opciones[82] = "6";
 
 
 
@@ -566,7 +626,13 @@ Presiona ENTER para continuar
  /  /_/________________()
 /______________________
 |_____________________()   
+
 Escher art by Michael Naylor
+
+StoryLine by Cleto Thar
+
+Web Adaptation by Esen Espinoza
+
 
 ");
             Console.ReadLine();
