@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Movimiento2 : MonoBehaviour {
 
-    public float speed = 5;
+    public float speed = 15;
+    public float angSpeed = 40;
 
   	// Use this for initialization
 	void Start () {
@@ -22,11 +23,11 @@ public class Movimiento2 : MonoBehaviour {
         }
 
         //código de mov simple horizontal
-        if(Input.GetKey (KeyCode.LeftArrow)) {
-            transform.position += Vector3.left * Time.deltaTime * speed;
-        } else if (Input.GetKey (KeyCode.RightArrow)) {
-            transform.position += Vector3.right * Time.deltaTime * speed;
-        }
+        if (Input.GetKey (KeyCode.LeftArrow)) { transform.Rotate (Vector3.down * Time.deltaTime * angSpeed );}
+
+        else if (Input.GetKey (KeyCode.RightArrow)) { transform.Rotate (Vector3.up * Time.deltaTime * angSpeed );}
+
+       
 		      
 	}
 
