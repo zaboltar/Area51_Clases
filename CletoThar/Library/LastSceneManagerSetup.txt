@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/deltaScheme.unity
+- path: Assets/Scenes/GammaSceneRedo.unity
   isLoaded: 1
   isActive: 1
