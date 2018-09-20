@@ -16,7 +16,7 @@ public class TextColNRayCst : MonoBehaviour {
     void Update () {
         source = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        RaycastHit2D hit2D = Physics2D.Raycast(source, Vector3.forward * distance);
+        RaycastHit2D hit2D = Physics2D.Raycast(source, target);
 	
         if (hit2D){
             Debug.Log(hit2D.collider.name);
