@@ -54,6 +54,11 @@ public class movInsta2D : MonoBehaviour
         return hit2D ? hit2D.collider.CompareTag("walls") : false;
     }
 
+    // todo lo q usa physics 2d requiere de un punto de referencia original 
+    // el move de rigidbody no funciona como un mov q parte y depende de uno mismo (en cuanto obj)
+    // Schopenhauer plantea una quadruple raiz para el principio de razon suficiente, no tiene nada q ver, pero parerga und paralipomena
+    // rigidbody pueden desyncronizar en update
+    // por eso la fisica debe ocurrir en fixedUpdate
 
 
 

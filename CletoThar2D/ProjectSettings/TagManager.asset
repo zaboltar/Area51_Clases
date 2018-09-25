@@ -9,6 +9,7 @@ TagManager:
   - SokoWall
   - SokoBox
   - SokoCross
+  - SraK
   layers:
   - Default
   - TransparentFX
