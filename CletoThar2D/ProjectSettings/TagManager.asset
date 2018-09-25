@@ -6,6 +6,9 @@ TagManager:
   tags:
   - walls
   - movestible
+  - SokoWall
+  - SokoBox
+  - SokoCross
   layers:
   - Default
   - TransparentFX
