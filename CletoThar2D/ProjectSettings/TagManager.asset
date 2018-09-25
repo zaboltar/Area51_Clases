@@ -10,6 +10,7 @@ TagManager:
   - SokoBox
   - SokoCross
   - SraK
+  - Goal
   layers:
   - Default
   - TransparentFX

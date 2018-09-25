@@ -7,6 +7,7 @@ public class MovContinuo : MonoBehaviour {
 
     public float speed;
     public List<AxisPair> axes;
+    private int fuji_veces = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -31,9 +32,15 @@ public class MovContinuo : MonoBehaviour {
 	{
         if (other.CompareTag("SraK")) {
             Debug.Log("Fujimorizado");
+            fuji_veces++;
         }
+         if (other.CompareTag("Goal")) {
+            Debug.Log("Has alcanzado la meta");
+            }
 	}
-
+	void OnGUI(){
+        GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
+        }
 }
 
 // no es muy eficiente recurrir a la variacion del velocity para el movimiento, es mejor usar rigidbody
