@@ -33,6 +33,10 @@ public class MovContinuo : MonoBehaviour {
         if (other.CompareTag("SraK")) {
             Debug.Log("Fujimorizado");
             fuji_veces++;
+            if (fuji_veces >= 5)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+             }
         }
          if (other.CompareTag("Goal")) {
             Debug.Log("Has alcanzado la meta");

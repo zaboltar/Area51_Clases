@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelScene.unity
     guid: 7c1ac87db01a76a4f95c78b7d21d1ad4
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: caf979d834652438181326fa4d07ca30
+  - enabled: 1
+    path: Assets/Scenes/snake ofidium lacertae.unity
+    guid: e4df87d2b10f27d4cbf451fae7a7d668
   m_configObjects: {}

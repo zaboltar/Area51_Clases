@@ -11,6 +11,7 @@ TagManager:
   - SokoCross
   - SraK
   - Goal
+  - snakeFood
   layers:
   - Default
   - TransparentFX
