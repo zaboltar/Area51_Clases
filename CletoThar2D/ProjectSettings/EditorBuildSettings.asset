@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/snake ofidium lacertae.unity
     guid: e4df87d2b10f27d4cbf451fae7a7d668
+  - enabled: 1
+    path: Assets/Scenes/Sra K Avoider.unity
+    guid: edcdcc314f8f0d645941d224fdeea322
   m_configObjects: {}

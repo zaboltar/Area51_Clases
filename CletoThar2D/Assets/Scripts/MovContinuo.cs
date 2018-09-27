@@ -7,8 +7,7 @@ public class MovContinuo : MonoBehaviour {
 
     public float speed;
     public List<AxisPair> axes;
-    private int fuji_veces = 0;
-
+    
 	// Use this for initialization
 	void Start () {
 		
@@ -30,20 +29,13 @@ public class MovContinuo : MonoBehaviour {
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-        if (other.CompareTag("SraK")) {
-            Debug.Log("Fujimorizado");
-            fuji_veces++;
-            if (fuji_veces >= 5)
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(2);
-             }
-        }
+        
          if (other.CompareTag("Goal")) {
             Debug.Log("Has alcanzado la meta");
             }
 	}
 	void OnGUI(){
-        GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
+        GUI.Label(new Rect(0, 0, 100, 50), "");
         }
 }
 
