@@ -16,17 +16,20 @@ public class SraK : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         Vector3 movement = Vector3.zero;
         for (int i = 0; i < axes.Count; i++)
         {
-            if(Input.GetKey(axes[i].keyCode)){
+            if(Input.GetKey(axes[i].keyCode) && !FindObstacle(axes[i].direction)){
                 movement += axes[i].direction;
             }
         }
 
         movement = movement.normalized * speed * Time.deltaTime;
         transform.Translate(movement);
+   
     }
+
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
@@ -45,6 +48,15 @@ public class SraK : MonoBehaviour {
 	void OnGUI(){
         GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
         }
+
+    bool FindObstacle(Vector3 direction)
+    {
+        RaycastHit2D hit2D = Physics2D.Raycast(transform.position, direction);
+
+        return hit2D && hit2D.collider.CompareTag("Blockkk");
+    } // facil arreglar/borrar esto
+
+
 }
 
 // no es muy eficiente recurrir a la variacion del velocity para el movimiento, es mejor usar rigidbody

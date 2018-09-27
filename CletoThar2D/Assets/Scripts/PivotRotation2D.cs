@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PivotRotation2D : EntityMov2D {
+public class PivotRotation2D : EntityMov2D
+{
+
+    // este script ha sido cambiado en clase, pero uso una version anterior! ver repositorio. 
 
 
     public Vector2 pivotDirection;
@@ -11,15 +14,17 @@ public class PivotRotation2D : EntityMov2D {
 
     public Vector3 pivotPosition;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         currentPivotDirection = pivotDirection;
         pivotPosition = transform.position + ((Vector3)currentPivotDirection * pivotDistance);
 
-	}
-	
-	// Update is called once per frame
-	protected override void Update () {
+    }
+
+    // Update is called once per frame
+    protected override void Update()
+    {
 
 
 
@@ -28,14 +33,14 @@ public class PivotRotation2D : EntityMov2D {
 
         base.Update();
 
-	}
+    }
 
 
-	private void OnDrawGizmos()
-	{
+    private void OnDrawGizmos()
+    {
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(pivotPosition, 0.15f);
         Gizmos.DrawRay(transform.position, direction);
-	}
+    }
 
 }
