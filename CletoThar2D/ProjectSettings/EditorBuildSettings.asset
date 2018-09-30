@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sra K Avoider.unity
     guid: edcdcc314f8f0d645941d224fdeea322
+  - enabled: 1
+    path: Assets/Scenes/Hinostroza Shooter.unity
+    guid: 066062de6bb360e499b4792ac494e7c1
   m_configObjects: {}

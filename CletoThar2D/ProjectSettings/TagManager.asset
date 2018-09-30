@@ -12,6 +12,9 @@ TagManager:
   - SraK
   - Goal
   - snakeFood
+  - Player2
+  - Enemy2
+  - bolt
   layers:
   - Default
   - TransparentFX
