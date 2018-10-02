@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class camJam : MonoBehaviour {
+public class camJamXlimit : MonoBehaviour {
 
 	public Vector3 offset;
 	public Transform target;
 	
 	void LateUpdate () {
-       
-        transform.position = target.position + offset;
+        Vector3 temp = transform.position;
+
+        temp.y = target.position.y;
+        temp.z = offset.z;
+
+        transform.position = temp;
 
         // con esto he limitado el eje X y sòlo se mueve en Y !!!
         // rehacer este script para no alterar el original

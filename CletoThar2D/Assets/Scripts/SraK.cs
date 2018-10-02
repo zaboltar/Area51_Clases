@@ -20,7 +20,10 @@ public class SraK : MonoBehaviour {
         Vector3 movement = Vector3.zero;
         for (int i = 0; i < axes.Count; i++)
         {
-            if(Input.GetKey(axes[i].keyCode) && !FindObstacle(axes[i].direction)){
+            if(Input.GetKey(axes[i].keyCode) 
+              // && !FindObstacle(axes[i].direction)
+              )
+            {
                 movement += axes[i].direction;
             }
         }
@@ -49,12 +52,18 @@ public class SraK : MonoBehaviour {
         GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
         }
 
-    bool FindObstacle(Vector3 direction)
+   /* bool FindObstacle(Vector3 direction)
     {
-        RaycastHit2D hit2D = Physics2D.Raycast(transform.position, direction);
+        RaycastHit2D[] hits2D = Physics2D.RaycastAll (transform.position, direction, 0.5f);
+        Debug.DrawRay (transform.position, direction / 2, Color.green, 2);
 
-        return hit2D && hit2D.collider.CompareTag("Blockkk");
-    } // facil arreglar/borrar esto
+        foreach (RaycastHit2D hit2D in hits2D) {
+        if ( hit2D && hit2D.collider.CompareTag("Blockkk")) {
+        return true;
+        }
+    }
+    return false;
+    } // facil arreglar/borrar esto*/
 
 
 }

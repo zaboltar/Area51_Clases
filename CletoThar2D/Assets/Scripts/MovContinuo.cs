@@ -9,6 +9,8 @@ public class MovContinuo : MonoBehaviour {
     public List<AxisPair> axes;
     
 	// Use this for initialization
+
+    // RECOPIAR TODO ESTO !!!
 	void Start () {
 		
 	}
@@ -32,7 +34,11 @@ public class MovContinuo : MonoBehaviour {
         
          if (other.CompareTag("Goal")) {
             Debug.Log("Has alcanzado la meta");
-            }
+        } else if (other.CompareTag("CamArea")) {
+           // Camera.main.GetComponent<CamCtrl2D>().SwitchTarget(other.transform); //aca llamamos al script
+        }
+
+
 	}
 	void OnGUI(){
         GUI.Label(new Rect(0, 0, 100, 50), "");
