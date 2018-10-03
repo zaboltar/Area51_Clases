@@ -9,13 +9,10 @@ public class PivotRotation2D : EntityMov2D
 
     public Vector2 currentPivotDirection;
     public float pivotDistance = 1f;
+    public Vector3 pivotPosition { get { return transform.position + ((Vector3)currentPivotDirection * pivotDistance); } }
+    // este accesor almacena la formula para no estar copiandola siempre
 
-    // public Vector2 pivotDirection;
-
-    // revisar esto xq me tira error, de hecho lo copie mal public Vector3 pivotPosition { get { return transform.position + ((Vector3)currentPivotDirection * pivotDistance)}};
-    // almacena la formula
-
-    // Use this for initialization
+ 
     void Start()
     {
       
@@ -25,7 +22,7 @@ public class PivotRotation2D : EntityMov2D
     // Update is called once per frame
     protected override void Update()
     {
-        /*
+        
         direction = (pivotPosition - transform.position).normalized;
         direction = Vector2.Perpendicular (direction);
 
@@ -36,7 +33,7 @@ public class PivotRotation2D : EntityMov2D
         transform.position = pivotPosition + ((transform.position - pivotPosition).normalized * pivotDistance);
         currentPivotDirection = (tempPivot - transform.position) / pivotDistance;
 
-        Debug.Log(pivotPosition); */
+       // Debug.Log(pivotPosition); 
 
         //revisar bien con el repositorio de Hilble esta parte; ya funciona bien !!
 
@@ -46,11 +43,13 @@ public class PivotRotation2D : EntityMov2D
 
 
     private void OnDrawGizmos()
-    { /*
+    { 
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(pivotPosition, 0.15f);
         Gizmos.DrawRay(transform.position, direction);
-    */ 
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay (transform.position, currentPivotDirection);
+    
      } 
 
 }

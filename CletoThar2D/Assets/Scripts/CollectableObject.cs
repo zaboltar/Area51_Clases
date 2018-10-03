@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class CollectableObject : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public float points;
+
+	public void Collect() {
+		Debug.Log ("Collected " + points + " points!");
+		Destroy (gameObject);
 	}
 }

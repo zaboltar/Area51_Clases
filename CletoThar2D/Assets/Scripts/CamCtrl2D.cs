@@ -3,27 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CamCtrl2D : MonoBehaviour {
-
-   /* public Transform currentTarget;
+ 
     public Transform defaultTarget;
+    public float defaultSize = 5f;
+    public Transform currentTarget;
+    public float currentSize;
     public float speed;
-    public Vector3 camPosition { get { return Camera.main.transform.position; }}
+    public float zoomSpeed = 3f;
+    public Vector3 camPosition { get { return Camera.main.transform.position; } }
     public float[] axisLimits;
 
-	// Use this for initialization
+	
 	void Start () {
 		currentTarget = defaultTarget;
+        currentSize = defaultSize;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-        transform.position = Vector3.MoveTowards(transform.position, ConvertToCamDepth(CheckCamLimit (target.position)) , speed * Time.deltaTime );
+	
+	void LateUpdate () {
+        transform.position = Vector3.MoveTowards (transform.position, ConvertToCamDepth(CheckCamLimit (currentTarget.position)) , speed * Time.deltaTime );
 
+        if (Camera.main.orthographicSize != currentSize) {
+            Camera.main.orthographicSize = Mathf.MoveTowards (Camera.main.orthographicSize, currentSize, zoomSpeed * Time.deltaTime);
+        }
 
 	}
 
     Vector3 CheckCamLimit (Vector3 vector) {
-        if (target.position <= axisLimits[3] && camPosition.y <= axisLimits [3]) {
+        if (currentTarget.position.y <= axisLimits[3] && camPosition.y <= axisLimits [3]) {
             vector.y = axisLimits[3];   // esto es solo para 1 limite
         }
         return vector;
@@ -35,13 +42,13 @@ public class CamCtrl2D : MonoBehaviour {
     }
 
 
-    public void SwitchTarget (Transform target) {
+    public void SwitchTarget (Transform target, float size = 5) {
     currentTarget = target == null ? defaultTarget : target;
     // esto es lo mismo q decir if (target ==null) {currentTarget = defaultTarget;} else {currentTarget = target;}
+    currentSize = size;
     }
 
 
-*/
 
 }
 

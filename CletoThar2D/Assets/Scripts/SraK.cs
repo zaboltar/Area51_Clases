@@ -20,9 +20,7 @@ public class SraK : MonoBehaviour {
         Vector3 movement = Vector3.zero;
         for (int i = 0; i < axes.Count; i++)
         {
-            if(Input.GetKey(axes[i].keyCode) 
-              // && !FindObstacle(axes[i].direction)
-              )
+            if(Input.GetKey(axes[i].keyCode) && !FindObstacle(axes[i].direction))
             {
                 movement += axes[i].direction;
             }
@@ -34,7 +32,7 @@ public class SraK : MonoBehaviour {
     }
 
 
-	private void OnTriggerEnter2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D other)
 	{
         if (other.CompareTag("SraK")) {
             Debug.Log("Fujimorizado");
@@ -44,26 +42,43 @@ public class SraK : MonoBehaviour {
                 UnityEngine.SceneManagement.SceneManager.LoadScene(4);
              }
         }
+
          if (other.CompareTag("Goal")) {
             Debug.Log("Has alcanzado la meta");
+
+            } else if (other.CompareTag("CamArea")) {
+            	Camera.main.GetComponent<CamCtrl2D>().SwitchTarget (other.transform, 7);
+            
+            } else if (other.CompareTag("Collectable")) {
+            	other.GetComponent<CollectableObject>().Collect();
             }
 	}
+
+	void OnTriggerExit2D (Collider2D other) {
+		if (other.CompareTag("CamArea")) {
+			Camera.main.GetComponent<CamCtrl2D>().SwitchTarget(null);
+		}
+	}
+
+
+
 	void OnGUI(){
         GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
         }
 
-   /* bool FindObstacle(Vector3 direction)
+
+    bool FindObstacle(Vector3 direction)
     {
         RaycastHit2D[] hits2D = Physics2D.RaycastAll (transform.position, direction, 0.5f);
-        Debug.DrawRay (transform.position, direction / 2, Color.green, 2);
+        Debug.DrawRay (transform.position, direction / 2, Color.blue, 2);
 
         foreach (RaycastHit2D hit2D in hits2D) {
-        if ( hit2D && hit2D.collider.CompareTag("Blockkk")) {
-        return true;
-        }
+        	if (hit2D.collider.CompareTag("walls")) {
+        	return true;
+       		 }
     }
     return false;
-    } // facil arreglar/borrar esto*/
+    } 
 
 
 }
