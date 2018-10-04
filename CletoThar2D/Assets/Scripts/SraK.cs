@@ -9,6 +9,8 @@ public class SraK : MonoBehaviour {
     public List<AxisPair> axes;
     private int fuji_veces = 0;
 
+    public GameObject bulletPrefab;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -25,7 +27,13 @@ public class SraK : MonoBehaviour {
                 movement += axes[i].direction;
             }
         }
+        //-------------------------------
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Instantiate(bulletPrefab, transform.position + Vector3.up, transform.rotation);
+        }
 
+
+        // ------------------------------
         movement = movement.normalized * speed * Time.deltaTime;
         transform.Translate(movement);
    
@@ -37,10 +45,13 @@ public class SraK : MonoBehaviour {
         if (other.CompareTag("SraK")) {
             Debug.Log("Fujimorizado");
             fuji_veces++;
+
+            GameControl.instance.RestartLevel();
+
             if (fuji_veces >= 5)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(4);
-             }
+               // UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+            }
         }
 
          if (other.CompareTag("Goal")) {
@@ -51,6 +62,7 @@ public class SraK : MonoBehaviour {
             
             } else if (other.CompareTag("Collectable")) {
             	other.GetComponent<CollectableObject>().Collect();
+                speed++;
             }
 	}
 
@@ -92,3 +104,9 @@ public class SraK : MonoBehaviour {
 // addforce permite mayor naturalidad.
 
 // equivalente al transform.Translate es rigidbody.move
+
+
+
+
+// ver kenney assets  ! y https://opengameart.org/
+// y https://www.spriters-resource.com/ .... no recomendada por motivos legales otra q no sea opengameart
