@@ -20,6 +20,8 @@ public class BulletBehaviour : MonoBehaviour {
         if (other.CompareTag("SraK")) {
             other.GetComponent<DestroyableObject>().DestroySelf();
             Destroy(gameObject);
+        } else if (other.CompareTag("walls")) {
+        	Destroy(gameObject);
         }
 	}
 }

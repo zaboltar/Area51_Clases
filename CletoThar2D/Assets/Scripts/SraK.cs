@@ -7,7 +7,7 @@ public class SraK : MonoBehaviour {
 
     public float speed;
     public List<AxisPair> axes;
-    private int fuji_veces = 0;
+    private int collectSpeedTreasure = 0;
 
     public GameObject bulletPrefab;
 
@@ -31,8 +31,6 @@ public class SraK : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space)) {
             Instantiate(bulletPrefab, transform.position + Vector3.up, transform.rotation);
         }
-
-
         // ------------------------------
         movement = movement.normalized * speed * Time.deltaTime;
         transform.Translate(movement);
@@ -44,14 +42,13 @@ public class SraK : MonoBehaviour {
 	{
         if (other.CompareTag("SraK")) {
             Debug.Log("Fujimorizado");
-            fuji_veces++;
-
+            
             GameControl.instance.RestartLevel();
 
-            if (fuji_veces >= 5)
+           /* if (fuji_veces >= 5)
             {
-               // UnityEngine.SceneManagement.SceneManager.LoadScene(4);
-            }
+               esto ya no // UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+            }*/
         }
 
          if (other.CompareTag("Goal")) {
@@ -62,6 +59,7 @@ public class SraK : MonoBehaviour {
             
             } else if (other.CompareTag("Collectable")) {
             	other.GetComponent<CollectableObject>().Collect();
+                collectSpeedTreasure++;
                 speed++;
             }
 	}
@@ -75,7 +73,7 @@ public class SraK : MonoBehaviour {
 
 
 	void OnGUI(){
-        GUI.Label(new Rect(0, 0, 100, 50), "Has sido Fujimorizado " + (fuji_veces) + " veces!");
+        GUI.Label(new Rect(0, 0, 100, 50), "Aceleración AntiCorrupción = " +  (collectSpeedTreasure));
         }
 
 

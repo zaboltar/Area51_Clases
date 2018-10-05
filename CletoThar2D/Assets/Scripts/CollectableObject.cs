@@ -13,7 +13,7 @@ public class CollectableObject : MonoBehaviour {
 	public float points;
 
 	public void Collect() {
-		Debug.Log ("Collected " + points + " points!");
+		Debug.Log ("Eres más veloz!");
         GameControl.instance.CheckInstancePoint(this);
 		Destroy (gameObject);
 	}
