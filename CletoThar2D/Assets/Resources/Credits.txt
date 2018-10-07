@@ -1,0 +1,25 @@
+Turtle Fighter
+
+Credits
+
+Music:
+
+	- Amusia
+	- Thar
+
+Art:
+
+	- Phillipp Lensen (hero and mobs)
+	- LightSkin/Frank Altera (village)
+	- Internet 
+	- Cleto
+
+Code:
+
+	- Darthoul Sensei
+	- Cleto 
+
+Design:
+
+	- Cleto
+

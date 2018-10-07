@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Utilities2D;
@@ -73,7 +73,7 @@ public class SraK : MonoBehaviour {
 
 
 	void OnGUI(){
-        GUI.Label(new Rect(0, 0, 100, 50), "Aceleración AntiCorrupción = " +  (collectSpeedTreasure));
+        GUI.Label(new Rect(0, 0, 100, 50), "Speed = " +  (collectSpeedTreasure));
         }
 
 

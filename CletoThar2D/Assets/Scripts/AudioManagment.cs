@@ -5,7 +5,6 @@ using UnityEngine;
 public class AudioManagment : MonoBehaviour {
 
 	void Awake() {
-		//nop, necesito otra cosa
 		// DontDestroyOnLoad(transform.gameObject);
 		}
 }

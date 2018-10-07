@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hinostroza Shooter.unity
     guid: 066062de6bb360e499b4792ac494e7c1
+  - enabled: 1
+    path: Assets/Scenes/TopDownPrototype.unity
+    guid: 96018fa39194af54baa85a6914f8a095
+  - enabled: 1
+    path: Assets/Scenes/theWinScene.unity
+    guid: 03a885ea0602520488cbfcab6634a8f9
   m_configObjects: {}

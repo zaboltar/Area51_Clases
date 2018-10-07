@@ -42,7 +42,7 @@ public class CamCtrl2D : MonoBehaviour {
     }
 
 
-    public void SwitchTarget (Transform target, float size = 5) {
+    public void SwitchTarget (Transform target, float size = 15) {
     currentTarget = target == null ? defaultTarget : target;
     // esto es lo mismo q decir if (target ==null) {currentTarget = defaultTarget;} else {currentTarget = target;}
     currentSize = size;
