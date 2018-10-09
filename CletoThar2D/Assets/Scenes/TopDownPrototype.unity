@@ -9201,6 +9201,11 @@ Prefab:
       propertyPath: m_Name
       value: enem2Knght (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 61532047944383982, guid: 99418c38e573c7443be852d862c29564,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99418c38e573c7443be852d862c29564, type: 2}
   m_IsPrefabParent: 0

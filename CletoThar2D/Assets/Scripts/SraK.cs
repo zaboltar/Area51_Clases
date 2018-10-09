@@ -8,7 +8,6 @@ public class SraK : MonoBehaviour {
     public float speed;
     public List<AxisPair> axes;
     private int collectSpeedTreasure = 0;
-
     public GameObject bulletPrefab;
 
 	// Use this for initialization
@@ -74,6 +73,8 @@ public class SraK : MonoBehaviour {
 
 	void OnGUI(){
         GUI.Label(new Rect(0, 0, 100, 50), "Speed = " +  (collectSpeedTreasure));
+        GUI.Label(new Rect(0, 15, 100, 50), "Score = " +  "DEBUG!" ); // No se cómo jalar la variable int del script BulletBehaviour!
+        
         }
 
 
