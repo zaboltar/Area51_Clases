@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletBehaviour : MonoBehaviour {
 
     public float speed = 2f;
-    private int collectFrags;
+
 	
 	// Use this for initialization
 	void Start () {
@@ -21,7 +21,6 @@ public class BulletBehaviour : MonoBehaviour {
         if (other.CompareTag("SraK")) {
             other.GetComponent<DestroyableObject>().DestroySelf();
             Destroy(gameObject);
-            collectFrags++;
         } else if (other.CompareTag("walls")) {
         	Destroy(gameObject);
         }

@@ -22,6 +22,8 @@ public class GameControl : MonoBehaviour {
     //aca va la variable
     public LevelObjective levelObjective;
     public int objectiveCount;
+    public string objectivePrefix;
+    public UIManager uiManager;
 
     public List<MonoBehaviour> objectiveInstances = new List<MonoBehaviour>();
 
@@ -44,11 +46,12 @@ public class GameControl : MonoBehaviour {
 
         if ( levelObjective == LevelObjective.Collect) {
             ReselectInstances (typeof(CollectableObject));
+
         } else if (levelObjective == LevelObjective.Destroy) {
             ReselectInstances(typeof(DestroyableObject));
         }
 
-
+        uiManager.RefreshText(objectivePrefix, objectiveCount);
 
 	}
 	
@@ -56,7 +59,10 @@ public class GameControl : MonoBehaviour {
         objectiveInstances = objectiveInstances.FindAll(script => script.GetType() == type);
         foreach (var script in objectiveInstances) {
             objectiveCount++;
+
         }
+
+        objectivePrefix = levelObjective + ": ";
     }
 
 
@@ -69,6 +75,7 @@ public class GameControl : MonoBehaviour {
     }
 
     void CheckLevelObjetives() {
+        uiManager.RefreshText(objectivePrefix, objectiveCount);
         if (objectiveCount <= 0) {
             NextLevel ();
         }

@@ -10,6 +10,7 @@ public class SraK : MonoBehaviour {
     private int collectSpeedTreasure = 0;
     public GameObject bulletPrefab;
 
+
 	// Use this for initialization
 	void Start () {
 		
@@ -71,11 +72,11 @@ public class SraK : MonoBehaviour {
 
 
 
-	void OnGUI(){
+	/*void OnGUI(){
         GUI.Label(new Rect(0, 0, 100, 50), "Speed = " +  (collectSpeedTreasure));
         GUI.Label(new Rect(0, 15, 100, 50), "Score = " +  "DEBUG!" ); // No se cómo jalar la variable int del script BulletBehaviour!
         
-        }
+        }*/
 
 
     bool FindObstacle(Vector3 direction)
