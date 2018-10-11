@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Utilities2D;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class MovContinuoPhysics2D : MonoBehaviour {
-
-    //revisar, corregir
 
     public float speed;
     public List<AxisPair> axes;
@@ -19,7 +18,6 @@ public class MovContinuoPhysics2D : MonoBehaviour {
         rb2D.constraints = RigidbodyConstraints2D.FreezeRotation;
 	}
 
-	// Update is called once per frame
 	void FixedUpdate () {
         Vector3 movement = Vector3.zero;
         for (int i = 0; i < axes.Count; i++)

@@ -8,14 +8,15 @@ public class PingPongPhysics2D : EntityPhysics2D {
     private float currentDistance;
 
 	
-	//revisar, corregir
+	
 
-	// Update is called once per frame
 	protected override void FixedUpdate () {
         currentDistance += movement.magnitude;
         if (currentDistance >= distance) {
-            //direction 
+            	direction *= -1;
+            	currentDistance = 0;
+            }
+
+            base.FixedUpdate();
         }
-		
-	}
 }
