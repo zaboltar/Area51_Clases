@@ -9,27 +9,27 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/sokobanish.unity
-    guid: 1304f44668012434a977e0a9abd04aa8
-  - enabled: 1
-    path: Assets/Scenes/LevelScene.unity
-    guid: 7c1ac87db01a76a4f95c78b7d21d1ad4
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/2d scenes/SampleScene.unity
     guid: caf979d834652438181326fa4d07ca30
   - enabled: 1
-    path: Assets/Scenes/snake ofidium lacertae.unity
+    path: Assets/Scenes/2d scenes/sokobanish.unity
+    guid: 1304f44668012434a977e0a9abd04aa8
+  - enabled: 1
+    path: Assets/Scenes/2d scenes/LevelScene.unity
+    guid: 7c1ac87db01a76a4f95c78b7d21d1ad4
+  - enabled: 1
+    path: Assets/Scenes/2d scenes/snake ofidium lacertae.unity
     guid: e4df87d2b10f27d4cbf451fae7a7d668
   - enabled: 1
-    path: Assets/Scenes/Sra K Avoider.unity
+    path: Assets/Scenes/2d scenes/Sra K Avoider.unity
     guid: edcdcc314f8f0d645941d224fdeea322
   - enabled: 1
-    path: Assets/Scenes/Hinostroza Shooter.unity
+    path: Assets/Scenes/2d scenes/Hinostroza Shooter.unity
     guid: 066062de6bb360e499b4792ac494e7c1
   - enabled: 1
-    path: Assets/Scenes/TopDownPrototype.unity
+    path: Assets/Scenes/2d scenes/TopDownPrototype.unity
     guid: 96018fa39194af54baa85a6914f8a095
   - enabled: 1
-    path: Assets/Scenes/theWinScene.unity
+    path: Assets/Scenes/2d scenes/theWinScene.unity
     guid: 03a885ea0602520488cbfcab6634a8f9
   m_configObjects: {}
