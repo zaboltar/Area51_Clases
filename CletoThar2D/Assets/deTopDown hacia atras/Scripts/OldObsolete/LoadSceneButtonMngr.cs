@@ -10,7 +10,13 @@ public class LoadSceneButtonMngr : MonoBehaviour {
 
 	public void SceneLoader(int SceneIndex) {
 
-	SceneManager.LoadScene(SceneIndex);
+        if (AudioManagment.audioMngr != null ) {
+
+            Destroy(AudioManagment.audioMngr.gameObject);
+        }
+
+	    SceneManager.LoadScene(SceneIndex);
+
 	// esto debería apagar la música
 	
 	
