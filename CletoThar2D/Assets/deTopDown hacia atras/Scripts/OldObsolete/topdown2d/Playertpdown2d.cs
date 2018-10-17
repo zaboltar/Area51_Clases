@@ -33,7 +33,8 @@ public class Playertpdown2d : MonoBehaviour {
 
 
 	void FixedUpdate(){
-		rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+
+			rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
 	}
 
 

@@ -79,8 +79,7 @@ public class SraK : MonoBehaviour {
         }*/
 
 
-    bool FindObstacle(Vector3 direction)
-    {
+    bool FindObstacle(Vector3 direction) {
         RaycastHit2D[] hits2D = Physics2D.RaycastAll (transform.position, direction, 0.5f);
         Debug.DrawRay (transform.position, direction / 2, Color.blue, 2);
 
@@ -88,7 +87,7 @@ public class SraK : MonoBehaviour {
         	if (hit2D.collider.CompareTag("walls")) {
         	return true;
        		 }
-    }
+        }
     return false;
     } 
 

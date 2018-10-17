@@ -9,6 +9,7 @@ public class MovContinuoPhysics2D : MonoBehaviour {
     public float speed;
     public List<AxisPair> axes;
     public Rigidbody2D rb2D;
+    public Animator animator;
 
 
 	void Reset()
@@ -26,9 +27,23 @@ public class MovContinuoPhysics2D : MonoBehaviour {
                 movement += axes[i].direction;
             }
         }
+
+        /* ESTA PARTE LA USAMOS TEMPORALMENTE PARA "FLIPEAR" SIMPLEMENTE UN SPRITE
         movement = movement.normalized * speed * Time.fixedDeltaTime;
         if (movement.x > 0) { GetComponent<SpriteRenderer>().flipX = false; }
         else if (movement.x < 0 ) { GetComponent<SpriteRenderer>().flipX = true;}
-          rb2D.MovePosition(transform.position + movement);
+          rb2D.MovePosition(transform.position + movement); */
+
+          if (movement != Vector3.zero) {
+            animator.SetBool ("Moving", true);
+            animator.SetFloat ("Horizontal", movement.x);
+            animator.SetFloat ("Vertical", movement.y);
+          } else {
+            animator.SetBool ("Moving", false);
+          }
+
+        movement = movement.normalized * speed * Time.fixedDeltaTime;
+        rb2D.MovePosition(transform.position + movement);
+
     }
 }

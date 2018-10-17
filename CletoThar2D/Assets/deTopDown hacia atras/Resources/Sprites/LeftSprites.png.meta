@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a20ee32c66194d4d86467368dcce5ce
+guid: b1b6645424fbbc240b54c166570572f2
 TextureImporter:
   fileIDToRecycleName:
     21300000: oog_character_spritesheet_0
@@ -112,6 +112,116 @@ TextureImporter:
     21300214: oog_character_spritesheet_107
     21300216: oog_character_spritesheet_108
     21300218: oog_character_spritesheet_109
+    21300220: LeftSprites_0
+    21300222: LeftSprites_1
+    21300224: LeftSprites_2
+    21300226: LeftSprites_3
+    21300228: LeftSprites_4
+    21300230: LeftSprites_5
+    21300232: LeftSprites_6
+    21300234: LeftSprites_7
+    21300236: LeftSprites_8
+    21300238: LeftSprites_9
+    21300240: LeftSprites_10
+    21300242: LeftSprites_11
+    21300244: LeftSprites_12
+    21300246: LeftSprites_13
+    21300248: LeftSprites_14
+    21300250: LeftSprites_15
+    21300252: LeftSprites_16
+    21300254: LeftSprites_17
+    21300256: LeftSprites_18
+    21300258: LeftSprites_19
+    21300260: LeftSprites_20
+    21300262: LeftSprites_21
+    21300264: LeftSprites_22
+    21300266: LeftSprites_23
+    21300268: LeftSprites_24
+    21300270: LeftSprites_25
+    21300272: LeftSprites_26
+    21300274: LeftSprites_27
+    21300276: LeftSprites_28
+    21300278: LeftSprites_29
+    21300280: LeftSprites_30
+    21300282: LeftSprites_31
+    21300284: LeftSprites_32
+    21300286: LeftSprites_33
+    21300288: LeftSprites_34
+    21300290: LeftSprites_35
+    21300292: LeftSprites_36
+    21300294: LeftSprites_37
+    21300296: LeftSprites_38
+    21300298: LeftSprites_39
+    21300300: LeftSprites_40
+    21300302: LeftSprites_41
+    21300304: LeftSprites_42
+    21300306: LeftSprites_43
+    21300308: LeftSprites_44
+    21300310: LeftSprites_45
+    21300312: LeftSprites_46
+    21300314: LeftSprites_47
+    21300316: LeftSprites_48
+    21300318: LeftSprites_49
+    21300320: LeftSprites_50
+    21300322: LeftSprites_51
+    21300324: LeftSprites_52
+    21300326: LeftSprites_53
+    21300328: LeftSprites_54
+    21300330: LeftSprites_55
+    21300332: LeftSprites_56
+    21300334: LeftSprites_57
+    21300336: LeftSprites_58
+    21300338: LeftSprites_59
+    21300340: LeftSprites_60
+    21300342: LeftSprites_61
+    21300344: LeftSprites_62
+    21300346: LeftSprites_63
+    21300348: LeftSprites_64
+    21300350: LeftSprites_65
+    21300352: LeftSprites_66
+    21300354: LeftSprites_67
+    21300356: LeftSprites_68
+    21300358: LeftSprites_69
+    21300360: LeftSprites_70
+    21300362: LeftSprites_71
+    21300364: LeftSprites_72
+    21300366: LeftSprites_73
+    21300368: LeftSprites_74
+    21300370: LeftSprites_75
+    21300372: LeftSprites_76
+    21300374: LeftSprites_77
+    21300376: LeftSprites_78
+    21300378: LeftSprites_79
+    21300380: LeftSprites_80
+    21300382: LeftSprites_81
+    21300384: LeftSprites_82
+    21300386: LeftSprites_83
+    21300388: LeftSprites_84
+    21300390: LeftSprites_85
+    21300392: LeftSprites_86
+    21300394: LeftSprites_87
+    21300396: LeftSprites_88
+    21300398: LeftSprites_89
+    21300400: LeftSprites_90
+    21300402: LeftSprites_91
+    21300404: LeftSprites_92
+    21300406: LeftSprites_93
+    21300408: LeftSprites_94
+    21300410: LeftSprites_95
+    21300412: LeftSprites_96
+    21300414: LeftSprites_97
+    21300416: LeftSprites_98
+    21300418: LeftSprites_99
+    21300420: LeftSprites_100
+    21300422: LeftSprites_101
+    21300424: LeftSprites_102
+    21300426: LeftSprites_103
+    21300428: LeftSprites_104
+    21300430: LeftSprites_105
+    21300432: LeftSprites_106
+    21300434: LeftSprites_107
+    21300436: LeftSprites_108
+    21300438: LeftSprites_109
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -192,7 +302,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oog_character_spritesheet_0
+      name: LeftSprites_0
       rect:
         serializedVersion: 2
         x: 34
@@ -206,13 +316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460a184f197c53d4ca51951fa8430a9f
+      spriteID: 0c3bbd540371a6e42af5da2a4ad24b20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_1
+      name: LeftSprites_1
       rect:
         serializedVersion: 2
         x: 134
@@ -226,13 +336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7087fc89edc8844bbf92d6159ff9d6c
+      spriteID: 97ce7dddfdee20c4ea7f922831eb6ed6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_2
+      name: LeftSprites_2
       rect:
         serializedVersion: 2
         x: 140
@@ -246,13 +356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd219d8dc6955241bb60e80b6bf4c40
+      spriteID: 00f705edbc0d1014c8c28f5c51dd58eb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_3
+      name: LeftSprites_3
       rect:
         serializedVersion: 2
         x: 158
@@ -266,13 +376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576a8ae2e39156d4ea8d26c8c61bfd1d
+      spriteID: 12d0df8d3c05cb8489b448a0f2fba8af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_4
+      name: LeftSprites_4
       rect:
         serializedVersion: 2
         x: 1068
@@ -286,13 +396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df1e9d18f075a98459f8c05be96f6cd2
+      spriteID: db33ffc97ab687642bd504d82206ecfd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_5
+      name: LeftSprites_5
       rect:
         serializedVersion: 2
         x: 1085
@@ -306,13 +416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c1b17320d2cf4c4291bc134f46493af
+      spriteID: 99d54eaf4b7b14540a7bc4e6b02ac6e4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_6
+      name: LeftSprites_6
       rect:
         serializedVersion: 2
         x: 1128
@@ -326,13 +436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e923311bcc92f0742ba1676e9a6c1048
+      spriteID: af1d97ba954a9cc42bb51947653a01a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_7
+      name: LeftSprites_7
       rect:
         serializedVersion: 2
         x: 1144
@@ -346,13 +456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4afd6235016dcf458a13ed481f85362
+      spriteID: bd6a5a7c10042e04c9a1d86cb6925fa7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_8
+      name: LeftSprites_8
       rect:
         serializedVersion: 2
         x: 1176
@@ -366,13 +476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98350e3b3726e7d468690d7225db4969
+      spriteID: c56fd7d13be56e14dbc5049eacbfb6ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_9
+      name: LeftSprites_9
       rect:
         serializedVersion: 2
         x: 1193
@@ -386,13 +496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15c588267d5634f49a57162e4756dd60
+      spriteID: 2acef11075cd87144942b6f1a8ca9f7c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_10
+      name: LeftSprites_10
       rect:
         serializedVersion: 2
         x: 1199
@@ -406,13 +516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8626f42e6f6bbc48b6054337c9d3a86
+      spriteID: 532553d47a601f3438471ef163aeb992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_11
+      name: LeftSprites_11
       rect:
         serializedVersion: 2
         x: 51
@@ -426,13 +536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b001ce94ecdd547ade640f1c709648
+      spriteID: 2b5878a784266b74f95fee7821047ca1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_12
+      name: LeftSprites_12
       rect:
         serializedVersion: 2
         x: 134
@@ -446,13 +556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d7ee5dc3a78a042b09c03ff15f410a
+      spriteID: 2618bec523835dd42a5833364f3c202a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_13
+      name: LeftSprites_13
       rect:
         serializedVersion: 2
         x: 164
@@ -466,13 +576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37af2e04a31cc542a8fbc68980887a4
+      spriteID: 456db48508ee2df45babaf28dcb0e4c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_14
+      name: LeftSprites_14
       rect:
         serializedVersion: 2
         x: 199
@@ -486,13 +596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ec8875f334265b4ba954f60bb14a52c
+      spriteID: 7a19bc6aeade8f34497971046b2271c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_15
+      name: LeftSprites_15
       rect:
         serializedVersion: 2
         x: 199
@@ -506,13 +616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4584a1eaca6eb354faf4524f15085515
+      spriteID: cd94411130b56d64b964866c27723cfa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_16
+      name: LeftSprites_16
       rect:
         serializedVersion: 2
         x: 362
@@ -526,13 +636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a17583f4171f544a8a5b5aefc9174bc
+      spriteID: 59b6fa468e9b93741809675c53131bc3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_17
+      name: LeftSprites_17
       rect:
         serializedVersion: 2
         x: 522
@@ -546,13 +656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ec2048c2ff34042ad4b443f04a2f9d
+      spriteID: d9c861bbc4f1cdd42904fff0a94c0dde
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_18
+      name: LeftSprites_18
       rect:
         serializedVersion: 2
         x: 1076
@@ -566,13 +676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 688c8046d5745e743bd46828c29b988f
+      spriteID: 9cfad4d59d1f1484d94685a23df9096c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_19
+      name: LeftSprites_19
       rect:
         serializedVersion: 2
         x: 1252
@@ -586,13 +696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c14979a7c711d84c86618dc79da6844
+      spriteID: 64933a8b39ffa244599a08de24a2e25e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_20
+      name: LeftSprites_20
       rect:
         serializedVersion: 2
         x: 36
@@ -606,13 +716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37321d912ee9d03458128f9b5556fbec
+      spriteID: 805a3c6261577f243bf971cd64c1361d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_21
+      name: LeftSprites_21
       rect:
         serializedVersion: 2
         x: 52
@@ -626,13 +736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8097fbe1410b7d45af0830c2ce4e8ce
+      spriteID: 7eaaf4a09f443304a858823702732171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_22
+      name: LeftSprites_22
       rect:
         serializedVersion: 2
         x: 68
@@ -646,13 +756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c49e531230a524b97782635567e450
+      spriteID: ec0bef44c2494784d82630a10faa3e20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_23
+      name: LeftSprites_23
       rect:
         serializedVersion: 2
         x: 86
@@ -666,13 +776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f7e5747baba6b40ab0974114415753
+      spriteID: 50f7705242880c94f9d446749189b208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_24
+      name: LeftSprites_24
       rect:
         serializedVersion: 2
         x: 101
@@ -686,13 +796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b2a77eabfeae4489639ce6a9b4d64b
+      spriteID: 65119409e5cafaa4eba96b4a0652d05a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_25
+      name: LeftSprites_25
       rect:
         serializedVersion: 2
         x: 116
@@ -706,13 +816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9218d91ac9f76d44ca279cbe03f4bfdf
+      spriteID: 6f3ca2ce8a235524f90fdc8be5eddec6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_26
+      name: LeftSprites_26
       rect:
         serializedVersion: 2
         x: 135
@@ -726,13 +836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de9bd61c5947f946b318de940c4c96b
+      spriteID: 6e009112b2c9db8479b1829a21681a95
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_27
+      name: LeftSprites_27
       rect:
         serializedVersion: 2
         x: 196
@@ -746,13 +856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb7dc19200bc74d4a88154cb7a350678
+      spriteID: 1354f93a9e2fea64f9c88d9b845e5dfc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_28
+      name: LeftSprites_28
       rect:
         serializedVersion: 2
         x: 359
@@ -766,13 +876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9458bb3ab6b6fe4bb5c9ed5cf7fabbb
+      spriteID: de9f314fa05196948808017611da2823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_29
+      name: LeftSprites_29
       rect:
         serializedVersion: 2
         x: 508
@@ -786,13 +896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d233b915358dfe4babcf978d4dc6871
+      spriteID: b44a9eabbb2d2cd46bbcf9048513f78f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_30
+      name: LeftSprites_30
       rect:
         serializedVersion: 2
         x: 669
@@ -806,13 +916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae3e12fb55a26b4f9c33286e8f22619
+      spriteID: 2fc6f20bf619e5648afa8f8efa1f13ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_31
+      name: LeftSprites_31
       rect:
         serializedVersion: 2
         x: 426
@@ -826,13 +936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0b6ed140c5fce4e8dd9606db340d55
+      spriteID: 22f408a0520a7ad4693e6feee6fdee5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_32
+      name: LeftSprites_32
       rect:
         serializedVersion: 2
         x: 85
@@ -846,13 +956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc220dcffef88543be8f8053bda2c1e
+      spriteID: aab15a3e3279bed439bc9e84bad156cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_33
+      name: LeftSprites_33
       rect:
         serializedVersion: 2
         x: 101
@@ -866,13 +976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5afbf66d07ff0a4191fb5f33aa5bdf1
+      spriteID: 04e70489b5c86c2469390c6f33c9662d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_34
+      name: LeftSprites_34
       rect:
         serializedVersion: 2
         x: 111
@@ -886,13 +996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1172a1b50d4504c439617f0f8f344084
+      spriteID: 8d54296eb93158c47823f371c25e17dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_35
+      name: LeftSprites_35
       rect:
         serializedVersion: 2
         x: 144
@@ -906,13 +1016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27ee1a9be62a4f04c8a2193f5eb75474
+      spriteID: 70a677b1aaeb42447984417186661329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_36
+      name: LeftSprites_36
       rect:
         serializedVersion: 2
         x: 159
@@ -926,13 +1036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72154f6444ec685409170f5380199d45
+      spriteID: 6355c84b8dce76b4c998976844ef84b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_37
+      name: LeftSprites_37
       rect:
         serializedVersion: 2
         x: 176
@@ -946,13 +1056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a609079ec5929cc47b3821164bd7b938
+      spriteID: cb099154cda41d34fb5f53db0258e8b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_38
+      name: LeftSprites_38
       rect:
         serializedVersion: 2
         x: 192
@@ -966,13 +1076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3192f496ff314f64d96dba480544a442
+      spriteID: 4f9b0c3dc4986c94a8d29c602a48c513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_39
+      name: LeftSprites_39
       rect:
         serializedVersion: 2
         x: 210
@@ -986,13 +1096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f717da51d2b51404a8caa605d018b05f
+      spriteID: c3d2e59d5ef270a4da1ee992a8901850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_40
+      name: LeftSprites_40
       rect:
         serializedVersion: 2
         x: 922
@@ -1006,13 +1116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553833311a4a3f9458a9b270c2e0ba78
+      spriteID: 02ef98bedb808e04f93b0064b3475dd3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_41
+      name: LeftSprites_41
       rect:
         serializedVersion: 2
         x: 938
@@ -1026,13 +1136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2406c138018cb34880f265869e20c26
+      spriteID: b0862f7506fea9e4e82ea6c1ba9c6d8b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_42
+      name: LeftSprites_42
       rect:
         serializedVersion: 2
         x: 947
@@ -1046,13 +1156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b097a397f74584aa2328d578f2415a
+      spriteID: a5ad2b7d88bc0c149baa2fda498fd507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_43
+      name: LeftSprites_43
       rect:
         serializedVersion: 2
         x: 981
@@ -1066,13 +1176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8103db6c6dccdd64f993eaff23395a0f
+      spriteID: f26d31f036b6b4d4286662353f7d548a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_44
+      name: LeftSprites_44
       rect:
         serializedVersion: 2
         x: 997
@@ -1086,13 +1196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4bcb7fe6066cd498c31ec544b9c2d0
+      spriteID: 9a3d5a380159991419cb8c875259ee64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_45
+      name: LeftSprites_45
       rect:
         serializedVersion: 2
         x: 1014
@@ -1106,13 +1216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 698b0be7c9e06654f97a13558e2cda98
+      spriteID: 8f8cf9b43e6f4764c833e7a6db90a2af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_46
+      name: LeftSprites_46
       rect:
         serializedVersion: 2
         x: 1020
@@ -1126,13 +1236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cd0d6d0eee533b48a48675cde8ca585
+      spriteID: 8358b1496b117284baacf8df3a79dd5b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_47
+      name: LeftSprites_47
       rect:
         serializedVersion: 2
         x: 1037
@@ -1146,13 +1256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7cbd8f533c406a49b5c8211d44adc36
+      spriteID: 964afb274984885429d280462df52035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_48
+      name: LeftSprites_48
       rect:
         serializedVersion: 2
         x: 1046
@@ -1166,13 +1276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f149e27dd9905045a60be2e0451efa9
+      spriteID: 83ceb306d3ef5d644857e0976dbcd68b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_49
+      name: LeftSprites_49
       rect:
         serializedVersion: 2
         x: 240
@@ -1186,13 +1296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e8d3a6a6828f1449cfcea495fa8104
+      spriteID: b80265c4b4d9137419fe4d9a34fec235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_50
+      name: LeftSprites_50
       rect:
         serializedVersion: 2
         x: 390
@@ -1206,13 +1316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081346cea4f93254a8e185dee1d283f4
+      spriteID: 135a797fe04793d4e91e619e078d7a34
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_51
+      name: LeftSprites_51
       rect:
         serializedVersion: 2
         x: 1082
@@ -1226,13 +1336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8cff57d8ef32814ba4c97648da9dac7
+      spriteID: ab5a9a83e8c44fa4992a9f3ae8dd1ee9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_52
+      name: LeftSprites_52
       rect:
         serializedVersion: 2
         x: 1280
@@ -1246,13 +1356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d474720156138104ba104fcccb064414
+      spriteID: 28133bf1bca56c341a6d12b036b5059e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_53
+      name: LeftSprites_53
       rect:
         serializedVersion: 2
         x: 0
@@ -1266,13 +1376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a2a40f8ab817dc4f83338f7786d38c8
+      spriteID: adca6908313c0974fbebbf42e77386ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_54
+      name: LeftSprites_54
       rect:
         serializedVersion: 2
         x: 16
@@ -1286,13 +1396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ef6498501722a47ae9cd3900cf5a2f
+      spriteID: a495f533a6ef6d647beeca1b8ffea4df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_55
+      name: LeftSprites_55
       rect:
         serializedVersion: 2
         x: 25
@@ -1306,13 +1416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe2ef7265d99bc4b9b84d6cc23085f6
+      spriteID: 250fe8f04faaf0c4fb088e8c1ee88af2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_56
+      name: LeftSprites_56
       rect:
         serializedVersion: 2
         x: 60
@@ -1326,13 +1436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 119196be14eb41940b1a11387d4940ae
+      spriteID: 97cedf78903bc134ebbbad8ef79f1c09
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_57
+      name: LeftSprites_57
       rect:
         serializedVersion: 2
         x: 76
@@ -1346,13 +1456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c0e668a314ae24e9a968faf0382254
+      spriteID: 2f0435b75d7bea74aab80780e347e485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_58
+      name: LeftSprites_58
       rect:
         serializedVersion: 2
         x: 92
@@ -1366,13 +1476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 994f183fe26758d4eb9639d314c0c81a
+      spriteID: a09ebf6ec5abab5479b8e4528f60ceff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_59
+      name: LeftSprites_59
       rect:
         serializedVersion: 2
         x: 101
@@ -1386,13 +1496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 936c92fa796f89947b3fbbafb7bbd7b1
+      spriteID: 824ccb82839ccbe4b863943326f36246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_60
+      name: LeftSprites_60
       rect:
         serializedVersion: 2
         x: 118
@@ -1406,13 +1516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ccc6b3072b4ae948a4b0e3d1d6fccca
+      spriteID: 57ce00c814df3b64db890bc55fd5babd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_61
+      name: LeftSprites_61
       rect:
         serializedVersion: 2
         x: 135
@@ -1426,13 +1536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15fd29233e26fbc4aacc57e63f8f9240
+      spriteID: 65dccccf490b6e04fb1ea0c6bca976a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_62
+      name: LeftSprites_62
       rect:
         serializedVersion: 2
         x: 856
@@ -1446,13 +1556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915637f6437d6e44095cd9a5439ba318
+      spriteID: 4ecd320a4e407874e9e7e601f4e97ab9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_63
+      name: LeftSprites_63
       rect:
         serializedVersion: 2
         x: 874
@@ -1466,13 +1576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 192d530666e8c58418dd8fd1e8fd20c7
+      spriteID: faec9bc0866cc76408145e856b5aa9e5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_64
+      name: LeftSprites_64
       rect:
         serializedVersion: 2
         x: 883
@@ -1486,13 +1596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 238ebcb03191b7c4a8b927cb4cba9918
+      spriteID: e58b3dcf6f97746408b4b8775d22acdd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_65
+      name: LeftSprites_65
       rect:
         serializedVersion: 2
         x: 916
@@ -1506,13 +1616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa2d45868abd0ff4f8531cc062757716
+      spriteID: ff0932ac700f3774fb0b09bb55c4308b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_66
+      name: LeftSprites_66
       rect:
         serializedVersion: 2
         x: 933
@@ -1526,13 +1636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8037aeb9b5acb14f8542ca6eeef813c
+      spriteID: 0a4cd46a86f65a742a27c07a9083d8d0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_67
+      name: LeftSprites_67
       rect:
         serializedVersion: 2
         x: 968
@@ -1546,13 +1656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4005190383eedd44c8df4bef98eafa35
+      spriteID: b2cf546fd31ba374db98656a1100d442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_68
+      name: LeftSprites_68
       rect:
         serializedVersion: 2
         x: 974
@@ -1566,13 +1676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68ddbb3bdbada0845b86de7c30cc3323
+      spriteID: 3661a5e29ade4924f844597718d97628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_69
+      name: LeftSprites_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1586,13 +1696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b7e22e2adb16dc45acdcbe569cc4e46
+      spriteID: f0af64a6e956a334ea6698f782b69852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_70
+      name: LeftSprites_70
       rect:
         serializedVersion: 2
         x: 1147
@@ -1606,13 +1716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8805bcf81b13764ca34ef5a9563c5b6
+      spriteID: 81c2b7819e8965344bc6e47f91b6a3f7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_71
+      name: LeftSprites_71
       rect:
         serializedVersion: 2
         x: 1212
@@ -1626,13 +1736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 647046911f40380488343deedc01c65a
+      spriteID: 80014895f7a16d24eb9ed5e7b4209dbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_72
+      name: LeftSprites_72
       rect:
         serializedVersion: 2
         x: 219
@@ -1646,13 +1756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb48dc510e81a5342b8d4bb58aeac320
+      spriteID: ffda6a2a6755b9f418bad58500f5f820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_73
+      name: LeftSprites_73
       rect:
         serializedVersion: 2
         x: 937
@@ -1666,13 +1776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b580f6bc3c831e74687f87c1659d58bf
+      spriteID: 39ea1a976ad43044588c618d2dea6053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_74
+      name: LeftSprites_74
       rect:
         serializedVersion: 2
         x: 155
@@ -1686,13 +1796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7971d5cb8c2657e41a4e5aa60f3befbb
+      spriteID: e299940d4bdb92049af0532382de511e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_75
+      name: LeftSprites_75
       rect:
         serializedVersion: 2
         x: 332
@@ -1706,13 +1816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85daf4fbaa6b43249956d165d1af0702
+      spriteID: 88dfec115fca1854c9d9281d14426d3a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_76
+      name: LeftSprites_76
       rect:
         serializedVersion: 2
         x: 1352
@@ -1726,13 +1836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6f9d7cd2daede4784051c102046143
+      spriteID: 529fe580153fc3d4bb7e1dc480356468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_77
+      name: LeftSprites_77
       rect:
         serializedVersion: 2
         x: 51
@@ -1746,13 +1856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3dd86d1bd4b30e4cb73bfb85f687f60
+      spriteID: d1bd5e09099e65442ba23729d12bddfa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_78
+      name: LeftSprites_78
       rect:
         serializedVersion: 2
         x: 67
@@ -1766,13 +1876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44aa3aa1f1064f4792fec3b3cd2773c
+      spriteID: 7682cc33210e1dc4584f589442d93bca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_79
+      name: LeftSprites_79
       rect:
         serializedVersion: 2
         x: 76
@@ -1786,13 +1896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50101eadc16f6574d9505e357ad65829
+      spriteID: d971d44c8d188cf46aa0ba61197f4122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_80
+      name: LeftSprites_80
       rect:
         serializedVersion: 2
         x: 111
@@ -1806,13 +1916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c5006da099ef5498e259930117ba13
+      spriteID: 677d02af26b653b47845469a69df25b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_81
+      name: LeftSprites_81
       rect:
         serializedVersion: 2
         x: 117
@@ -1826,13 +1936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c8fa2475b95e2b4e823956695103643
+      spriteID: f8e9a87d3c077604fb077017eab25f3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_82
+      name: LeftSprites_82
       rect:
         serializedVersion: 2
         x: 135
@@ -1846,13 +1956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef2dc3bf81e5804eae81f45a039ffa6
+      spriteID: 09cb3b1c851fa7a4e8d6438547764f4d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_83
+      name: LeftSprites_83
       rect:
         serializedVersion: 2
         x: 166
@@ -1866,13 +1976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae10abc3c1f7e5c4ebb82b436103fa74
+      spriteID: 082922e05b9a29443854442545431cdf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_84
+      name: LeftSprites_84
       rect:
         serializedVersion: 2
         x: 105
@@ -1886,13 +1996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96533467170bda418cb5053e7482db1
+      spriteID: 2635ecc68dece9f47b9589fd5044a9e7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_85
+      name: LeftSprites_85
       rect:
         serializedVersion: 2
         x: 262
@@ -1906,13 +2016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f40ed0ce10d3a24a92c9ae3a9f8fa3c
+      spriteID: b7d4ec4fc17023e43ab0a464cc13a18e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_86
+      name: LeftSprites_86
       rect:
         serializedVersion: 2
         x: 467
@@ -1926,13 +2036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a1f3d0b89334749984d5bb230ad920
+      spriteID: 585dab983269ea148a1e9b209082d861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_87
+      name: LeftSprites_87
       rect:
         serializedVersion: 2
         x: 646
@@ -1946,13 +2056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bddf9e544c700ec4fb576ee4124b05b4
+      spriteID: 48d581cbad5049c48b30f71082b1656a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_88
+      name: LeftSprites_88
       rect:
         serializedVersion: 2
         x: 858
@@ -1966,13 +2076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea25e6cb944190498dd3fc6590ba29e
+      spriteID: 07230557c205ec64f8baf8c0668410c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_89
+      name: LeftSprites_89
       rect:
         serializedVersion: 2
         x: 80
@@ -1986,13 +2096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34eb73f747705b64685c84e30fbaf174
+      spriteID: e47a41696c7f7b240bcf993a4000f7c0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_90
+      name: LeftSprites_90
       rect:
         serializedVersion: 2
         x: 205
@@ -2006,13 +2116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 369f3a6941ebcc744a861ae14e0f2faf
+      spriteID: 672920f0914e0184c822fbd25faa8b7b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_91
+      name: LeftSprites_91
       rect:
         serializedVersion: 2
         x: 229
@@ -2026,13 +2136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07825013bd18a3c4aa30176c4572bc3f
+      spriteID: 344ca6f4e044955498dc0c7191f280ff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_92
+      name: LeftSprites_92
       rect:
         serializedVersion: 2
         x: 64
@@ -2046,13 +2156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1667d9b5306ab46b4645d3430c0569
+      spriteID: a58cf8bb728e77b4da98ce523582654a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_93
+      name: LeftSprites_93
       rect:
         serializedVersion: 2
         x: 89
@@ -2066,13 +2176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 190405e6aafe70f418780697b94a2adb
+      spriteID: b80f4bb491be0d54eaacce87002ef8f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_94
+      name: LeftSprites_94
       rect:
         serializedVersion: 2
         x: 123
@@ -2086,13 +2196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b109cf55fd02184c8e91fecace37990
+      spriteID: f39f69283816b764394c5a5de7cd7631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_95
+      name: LeftSprites_95
       rect:
         serializedVersion: 2
         x: 140
@@ -2106,13 +2216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d1d51208956b540a8a9f1084b7b1b2
+      spriteID: b2202f35875b2f5418e8677f44ea69fb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_96
+      name: LeftSprites_96
       rect:
         serializedVersion: 2
         x: 156
@@ -2126,13 +2236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7230bc2b06128db439bd151b41ad340a
+      spriteID: cf9f3f16ecba0424eb2d944758ed36c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_97
+      name: LeftSprites_97
       rect:
         serializedVersion: 2
         x: 172
@@ -2146,13 +2256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00764b3108b901448a1851a9d4206e7b
+      spriteID: 3026f53e352f8fb419f1bf7dbb0c20f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_98
+      name: LeftSprites_98
       rect:
         serializedVersion: 2
         x: 189
@@ -2166,13 +2276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb8b3d8c263e6148a2babca97ab5765
+      spriteID: 9ad01d3a7d289314081a77a0085d6d0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_99
+      name: LeftSprites_99
       rect:
         serializedVersion: 2
         x: 205
@@ -2186,13 +2296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e7a1fe345f0d944b4f1780f97f5f18
+      spriteID: 2e0ccddcfab37234d8a777d2674faa85
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_100
+      name: LeftSprites_100
       rect:
         serializedVersion: 2
         x: 211
@@ -2206,13 +2316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687cca5b72986aa44ad6057101d54b86
+      spriteID: 528178b93f01afb4b91c0238fa896dc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_101
+      name: LeftSprites_101
       rect:
         serializedVersion: 2
         x: 100
@@ -2226,13 +2336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a37f1f353306d524091b0702b1cba3ce
+      spriteID: cafff729db184f34ba8a82204b1954ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_102
+      name: LeftSprites_102
       rect:
         serializedVersion: 2
         x: 272
@@ -2246,13 +2356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 677dd3796190c9343902361feb7b1338
+      spriteID: 2315970c0b2a8ce42807a3acde99c65c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_103
+      name: LeftSprites_103
       rect:
         serializedVersion: 2
         x: 450
@@ -2266,13 +2376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 560c4e4471f16894197917bfd23d016b
+      spriteID: 2012abffec596b844b7dd637ca49f49a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_104
+      name: LeftSprites_104
       rect:
         serializedVersion: 2
         x: 615
@@ -2286,13 +2396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab4056710bdf9b4fa7810349375825a
+      spriteID: 7ce692a5b8ebc904faae509a8da94ea4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_105
+      name: LeftSprites_105
       rect:
         serializedVersion: 2
         x: 812
@@ -2306,13 +2416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e25014de2aa53b46bc4a486ef0f6c75
+      spriteID: 7d94b32770f6bdb43b79e21e5b518e6f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_106
+      name: LeftSprites_106
       rect:
         serializedVersion: 2
         x: 970
@@ -2326,13 +2436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2ccd15502e02664e9a6dd26065531e4
+      spriteID: 185b1e3c93ca7f642b5c700c67971055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_107
+      name: LeftSprites_107
       rect:
         serializedVersion: 2
         x: 1156
@@ -2346,13 +2456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb3d3c3a3bcfae43a8f8a51d318a83c
+      spriteID: 98f5c910e2361cd448b9bbf739e4de15
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_108
+      name: LeftSprites_108
       rect:
         serializedVersion: 2
         x: 1316
@@ -2366,13 +2476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9c11d09dc4ac748989fb86119ba4bb
+      spriteID: f2a799cd4ee148a4a82751fcca63562e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oog_character_spritesheet_109
+      name: LeftSprites_109
       rect:
         serializedVersion: 2
         x: 640
@@ -2386,7 +2496,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1428e09b8bf6f9541b1f62ed6659ac69
+      spriteID: 93b7e5e719023ac42979a0de0a89b40c
       vertices: []
       indices: 
       edges: []
