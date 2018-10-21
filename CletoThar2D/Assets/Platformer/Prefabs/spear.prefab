@@ -8,25 +8,21 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1815748523197592}
-  m_IsPrefabAsset: 1
+  m_IsPrefabParent: 1
 --- !u!1 &1815748523197592
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 4441874517946720}
   - component: {fileID: 212224376779944188}
   - component: {fileID: 114210223783494018}
   - component: {fileID: 61996355523326714}
-<<<<<<< HEAD
   - component: {fileID: 50185759879083530}
-=======
-  - component: {fileID: 50232075685175730}
->>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Layer: 0
   m_Name: spear
   m_TagString: bolt
@@ -37,7 +33,7 @@ GameObject:
 --- !u!4 &4441874517946720
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815748523197592}
   m_LocalRotation: {x: -0, y: -0, z: 0.043634254, w: 0.9990476}
@@ -47,19 +43,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.0020003}
-<<<<<<< HEAD
 --- !u!50 &50185759879083530
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
-=======
---- !u!50 &50232075685175730
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
->>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815748523197592}
   m_BodyType: 1
@@ -78,7 +66,7 @@ Rigidbody2D:
 --- !u!61 &61996355523326714
 BoxCollider2D:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815748523197592}
   m_Enabled: 1
@@ -98,12 +86,12 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.11267853, y: 0.18462805}
   m_EdgeRadius: 0
 --- !u!114 &114210223783494018
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815748523197592}
   m_Enabled: 1
@@ -115,7 +103,7 @@ MonoBehaviour:
 --- !u!212 &212224376779944188
 SpriteRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815748523197592}
   m_Enabled: 1
@@ -157,4 +145,3 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
