@@ -8,6 +8,7 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
+<<<<<<< HEAD
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1712446125797624}
   m_IsPrefabParent: 1
@@ -24,12 +25,31 @@ GameObject:
   - component: {fileID: 95500006937844638}
   - component: {fileID: 61580513673069400}
   m_Layer: 2
+=======
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1431797931219542}
+  m_IsPrefabAsset: 1
+--- !u!1 &1431797931219542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4100244400393194}
+  - component: {fileID: 212636394458894340}
+  - component: {fileID: 114979637696520138}
+  - component: {fileID: 95416593436974336}
+  - component: {fileID: 61887295047533288}
+  m_Layer: 0
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Name: Velociraptor_0
   m_TagString: dinoEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &4021810925682248
 Transform:
   m_ObjectHideFlags: 1
@@ -38,24 +58,47 @@ Transform:
   m_GameObject: {fileID: 1712446125797624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.83, y: -2.03, z: 0}
+=======
+--- !u!4 &4100244400393194
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431797931219542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.98, y: -2.11, z: 0}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!61 &61580513673069400
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712446125797624}
+=======
+--- !u!61 &61887295047533288
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431797931219542}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: 0}
+=======
+  m_Offset: {x: -0.34514475, y: 0.06669569}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -66,6 +109,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 2.375, y: 1.78125}
   m_EdgeRadius: 0
 --- !u!95 &95500006937844638
@@ -75,6 +119,17 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712446125797624}
+=======
+  m_Size: {x: 1.5300894, y: 1.735259}
+  m_EdgeRadius: 0
+--- !u!95 &95416593436974336
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431797931219542}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a43a26663cd858a419cb4721c46296e0, type: 2}
@@ -86,17 +141,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!114 &114268087294765696
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712446125797624}
+=======
+--- !u!114 &114979637696520138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431797931219542}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef1fd1fef0e407a43b2de22eb19b9079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   distance: 10
   animator: {fileID: 95500006937844638}
   speed: 3
@@ -109,6 +174,20 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712446125797624}
+=======
+  distance: 2.5
+  animator: {fileID: 95416593436974336}
+  speed: 1
+  direction: {x: -1, y: 0}
+  dinoHealth: 3
+  dinoBlood: {fileID: 1906119365151182, guid: ddb4b8edaec548f4ca8b605c68d972cc, type: 2}
+--- !u!212 &212636394458894340
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431797931219542}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -137,7 +216,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 3
+=======
+  m_SortingOrder: 0
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_Sprite: {fileID: 21300000, guid: cf2b450e71978a443833dc51bce6d4cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,3 +231,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
+  m_SpriteSortPoint: 0
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091

@@ -3,7 +3,11 @@
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_PrefabInternal: {fileID: 0}
   m_Name: fireball_0
   serializedVersion: 5
@@ -25,7 +29,11 @@ AnimatorController:
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_PrefabInternal: {fileID: 0}
   m_Name: fireballbydeeppurble
   m_Speed: 1
@@ -50,13 +58,21 @@ AnimatorState:
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102392278373048994}
+<<<<<<< HEAD
     m_Position: {x: 276, y: 60, z: 0}
+=======
+    m_Position: {x: 200, y: 0, z: 0}
+>>>>>>> d98db5bf0b5322aba9fc2b5909a0ede7ed2a3091
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
