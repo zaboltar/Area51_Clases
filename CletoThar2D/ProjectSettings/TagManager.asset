@@ -17,6 +17,7 @@ TagManager:
   - bolt
   - Collectable
   - CamArea
+  - deathzone
   layers:
   - Default
   - TransparentFX

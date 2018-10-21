@@ -10,13 +10,11 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     public List<AxisPair> axes;
     public Rigidbody2D rb2D;
     public float gravity = 8;
-    public float jumpForce = 7f;
+    public float jumpForce = 5f;
     public bool grounded;
     public Animator animator; //anim test
     public Collider2D col2D;
-
     Vector3 movement;
-
     Vector2 distanceLeft;
     Vector2 distanceRight;
     const float margin = 0.2f;
@@ -24,25 +22,19 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     public Vector2 pointLeft { get { return rb2D.position + distanceLeft; }}
     public Vector2 pointRight { get { return rb2D.position + distanceRight; }}
 
-
-
-
     void Reset () {
         rb2D = GetComponent<Rigidbody2D> ();
         rb2D.gravityScale = 0;
         rb2D.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
-	// Use this for initialization
 	void Start () {
         distanceLeft.x = -(col2D.bounds.extents.x - margin);
         distanceLeft.y = -col2D.bounds.extents.y;
         distanceRight.x = col2D.bounds.extents.x - margin;
         distanceRight.y = -col2D.bounds.extents.y;
-
 	}
 	
-	// Update is called once per frame
 	void Update () {
         movement = Vector3.zero;
         for (int i = 0; i < axes.Count; i++) {
@@ -81,22 +73,24 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
           animator.SetBool ("Att3", false);
            }
 
-           if (Input.GetKeyDown(KeyCode.T)) {
-          animator.SetBool ("Att4", true);
+          // if (Input.GetKeyDown(KeyCode.T)) {    throw=click
+          //animator.SetBool ("Att4", true);
           
-        } else if (Input.GetKeyUp(KeyCode.T)) {
-          animator.SetBool ("Att4", false);
-           }
-           if (Input.GetKeyDown(KeyCode.Y)) {
-          animator.SetBool ("Att5", true);
+        //} else if (Input.GetKeyUp(KeyCode.T)) {
+          //animator.SetBool ("Att4", false);
+
+
+        //   } else if (Input.GetKeyDown(KeyCode.Y)) {   salto=spacebar
+       //  animator.SetBool ("Att5", true);               pero no funciona aun
           
-        } else if (Input.GetKeyUp(KeyCode.Y)) {
-          animator.SetBool ("Att5", false);
-           }
+       // } else if (Input.GetKeyUp(KeyCode.Y)) {
+         // animator.SetBool ("Att5", false);}
 
         if (grounded && Input.GetKeyDown(KeyCode.Space)) {
             
-            speed.y = jumpForce;
+           //ESTO ESTA BIEN AQUI?!
+           animator.SetBool ("isJumping", true); 
+           speed.y = jumpForce;
         } 
 
 
@@ -106,7 +100,10 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
     void FixedUpdate () {
         if (!grounded) {
+        	 //ESTO ESTA BIEN AQUI?!
+        	animator.SetBool ("isJumping", false);
             speed.y -= gravity * Time.fixedDeltaTime;
+            
         } 
 
         GroundCheck();
@@ -151,5 +148,16 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
             }
         }
     }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("deathzone")) {
+                       
+            UnityEngine.SceneManagement.SceneManager.LoadScene(8);  
+             }
+     }
+
+
 
 }
