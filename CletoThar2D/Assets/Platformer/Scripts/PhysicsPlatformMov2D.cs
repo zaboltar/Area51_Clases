@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Utilities2D;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PhysicsPlatformMov2D : MonoBehaviour {
@@ -21,7 +22,11 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     const float minDistance = 0.1f; //0.05 || 0.5f
     public Vector2 pointLeft { get { return rb2D.position + distanceLeft; }}
     public Vector2 pointRight { get { return rb2D.position + distanceRight; }}
+    public int playerHealth = 3;
+    public Text HPText;
+    public GameObject blood;
 
+    
     void Reset () {
         rb2D = GetComponent<Rigidbody2D> ();
         rb2D.gravityScale = 0;
@@ -29,6 +34,8 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     }
 
 	void Start () {
+        HPText.text = "Health: " + playerHealth;
+        
         distanceLeft.x = -(col2D.bounds.extents.x - margin);
         distanceLeft.y = -col2D.bounds.extents.y;
         distanceRight.x = col2D.bounds.extents.x - margin;
@@ -137,7 +144,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
             if (hits2D[i])
             {
-                Debug.Log (hits2D[i].collider.name);
+               // Debug.Log (hits2D[i].collider.name);
                 if (speed.y < 0){
                     transform.position = (transform.position + (Vector3.down * minDistance));
                     // Debug.Log algo
@@ -156,7 +163,38 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
                        
             UnityEngine.SceneManagement.SceneManager.LoadScene(8);  
              }
-     }
+
+
+        if ( other.CompareTag("dinoEnemy"))
+        {
+            playerHealth--;
+            other.GetComponent<Animator>().SetBool("isAttacking", true);
+            Instantiate(blood, transform.position, Quaternion.identity);
+            HPText.text = "Health: " + playerHealth;
+            if (playerHealth <= 0)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+            }
+
+            
+        }
+
+        if (other.CompareTag("fireball"))
+        {
+            playerHealth--;
+           
+            Instantiate(blood, transform.position, Quaternion.identity);
+            HPText.text = "Health: " + playerHealth;
+            if (playerHealth <= 0)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+            }
+
+
+        }
+
+
+    }
 
 
 

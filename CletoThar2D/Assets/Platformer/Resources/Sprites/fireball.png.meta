@@ -1,42 +1,32 @@
 fileFormatVersion: 2
-guid: b8b41390e7af7ab4fa074cc096d83f38
+guid: e2a491bdacaa8554aad51ab9233ddc40
 TextureImporter:
   fileIDToRecycleName:
-    21300000: CriminalOgre_0
-    21300002: CriminalOgre_1
-    21300004: CriminalOgre_2
-    21300006: CriminalOgre_3
-    21300008: CriminalOgre_4
-    21300010: CriminalOgre_5
-    21300012: CriminalOgre_6
-    21300014: CriminalOgre_7
-    21300016: CriminalOgre_8
-    21300018: CriminalOgre_9
-    21300020: CriminalOgre_10
-    21300022: CriminalOgre_11
-    21300024: CriminalOgre_12
-    21300026: CriminalOgre_13
-    21300028: CriminalOgre_14
-    21300030: CriminalOgre_15
-    21300032: CriminalOgre_16
-    21300034: CriminalOgre_17
-    21300036: CriminalOgre_18
-    21300038: CriminalOgre_19
-    21300040: CriminalOgre_20
-    21300042: CriminalOgre_21
-    21300044: CriminalOgre_22
-    21300046: CriminalOgre_23
-    21300048: CriminalOgre_24
-    21300050: CriminalOgre_25
-    21300052: CriminalOgre_26
-    21300054: CriminalOgre_27
-    21300056: CriminalOgre_28
-    21300058: CriminalOgre_29
-    21300060: CriminalOgre_30
-    21300062: CriminalOgre_31
-    21300064: CriminalOgre_32
-    21300066: CriminalOgre_33
-    21300068: CriminalOgre_34
+    21300000: fireball_0
+    21300002: fireball_1
+    21300004: fireball_2
+    21300006: fireball_3
+    21300008: fireball_4
+    21300010: fireball_5
+    21300012: fireball_6
+    21300014: fireball_7
+    21300016: fireball_8
+    21300018: fireball_9
+    21300020: fireball_10
+    21300022: fireball_11
+    21300024: fireball_12
+    21300026: fireball_13
+    21300028: fireball_14
+    21300030: fireball_15
+    21300032: fireball_16
+    21300034: fireball_17
+    21300036: fireball_18
+    21300038: fireball_19
+    21300040: fireball_20
+    21300042: fireball_21
+    21300044: fireball_22
+    21300046: fireball_23
+    21300048: fireball_24
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -152,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CriminalOgre_0
+      name: fireball_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 318
-        width: 36
-        height: 38
+        x: 8
+        y: 214
+        width: 39
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,19 +156,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d045b529909bb4c9dd3b3021bcf7f7
+      spriteID: 5a35901d69ac1c34c9c49bf7f647f9cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_1
+      name: fireball_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 320
-        width: 37
-        height: 36
+        x: 57
+        y: 214
+        width: 40
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,19 +176,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7598e2e35ebbc14a9c797a72d0266c6
+      spriteID: fd5345d766b35fc40ad48fc9064295f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_2
+      name: fireball_2
       rect:
         serializedVersion: 2
-        x: 105
-        y: 320
-        width: 41
-        height: 36
+        x: 108
+        y: 214
+        width: 40
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,99 +196,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76e8a9f5fc0193e4d80f9fbaa34745b0
+      spriteID: 4a9b460efad9930428f1be53955b31b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_3
+      name: fireball_3
       rect:
         serializedVersion: 2
         x: 157
-        y: 319
-        width: 37
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b90584d32b0641140b57488813aa74ec
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_4
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 319
-        width: 47
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b3d284278e8fd8448da986cf23ec8a8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_5
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 319
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f141496dd3e46c4f9ada8c217bc11dd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_6
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 320
-        width: 43
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9da374c7fe7506489ee4e7667682b15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_7
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 275
+        y: 214
         width: 39
-        height: 32
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,19 +216,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c027839ace0592748ad687688209892b
+      spriteID: 6170246ff90adc64cac06ffaa2ce9d1f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_8
+      name: fireball_4
       rect:
         serializedVersion: 2
-        x: 58
-        y: 277
-        width: 41
-        height: 30
+        x: 209
+        y: 214
+        width: 39
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,358 +236,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d9d2882195ac346805b824e881d12e
+      spriteID: c069c10c0775d414bb680eb4a8989328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_9
+      name: fireball_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 269
-        width: 52
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b03c13e12d29da4da1f69264ae7d8f8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_10
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 246
-        width: 65
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f578af8a6c0e5143b62c4d2cb21e3bb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_11
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 239
-        width: 67
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bf6d586152de3541a5156bce9c075c3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_12
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 237
-        width: 49
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfbaff170d42022408e9ae8d55c223cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_13
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 195
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da43f81207ffb804581dd67d7bcfab50
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_14
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 195
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fd9c796fd006ee43b4b29f522df55b0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_15
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 195
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5cde74eebbd7db4b9da0f20bf4bc5a7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_16
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 150
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1396be5e7be9fad4a937505246271c8f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_17
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 151
-        width: 44
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe095bb739b273648b5017b5318b17a8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_18
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 149
-        width: 37
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e071f2fc911cf2f44b7feb685871ccc5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_19
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 148
-        width: 37
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf130b8a299b95641b012a20f3b14221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_20
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 149
-        width: 34
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf88e27fb69cc754f814a343b96cd124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_21
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 151
-        width: 28
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e998f64df5955b4f95df59e81bb3606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_22
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 102
-        width: 36
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 535f857fb3735b244b82f2c089b89d6d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_23
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 93
-        width: 34
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab3673893acfb4b41a59f57093718415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_24
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 102
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 459c19b6bd99aba469e0fe61faa0b41b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_25
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 102
+        x: 5
+        y: 164
         width: 42
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19c5ccc398568574eaa5435437ced495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_26
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 117
-        width: 56
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -686,39 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e33c32a921d7a284bae229b09a586cec
+      spriteID: 83750d37ee70ccf43ad65bff589ecbc1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_27
+      name: fireball_6
       rect:
         serializedVersion: 2
-        x: 317
-        y: 102
-        width: 35
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 158a445c3cf1b8842a8146602fa0a9a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CriminalOgre_28
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 4
+        x: 55
+        y: 164
         width: 42
-        height: 74
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -726,19 +276,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e3b46f9eae9ae4980b69d336c17a68
+      spriteID: 1b55941cb87badb4f80547b97884a26a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_29
+      name: fireball_7
       rect:
         serializedVersion: 2
-        x: 67
-        y: 23
-        width: 49
-        height: 55
+        x: 105
+        y: 164
+        width: 43
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,19 +296,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae7b07110227d8459edd0b5fc6be3e1
+      spriteID: 10ebcd5f8ca29cb4eb29562514fa7d6b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_30
+      name: fireball_8
       rect:
         serializedVersion: 2
-        x: 142
-        y: 26
-        width: 57
-        height: 52
+        x: 155
+        y: 164
+        width: 42
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,19 +316,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecab4a629fd0e2c4abdd409253edd432
+      spriteID: 715ad5ea86ba2c04fbde94c6be188866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_31
+      name: fireball_9
       rect:
         serializedVersion: 2
-        x: 225
-        y: 15
-        width: 95
-        height: 63
+        x: 206
+        y: 164
+        width: 43
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,19 +336,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1bcc8f5e11d2824b9e800594de55b66
+      spriteID: 3f17cf5eed67f434b814eb293555cbc9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_32
+      name: fireball_10
       rect:
         serializedVersion: 2
-        x: 351
-        y: 66
-        width: 33
-        height: 12
+        x: 3
+        y: 111
+        width: 44
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,19 +356,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc85c941929fe04abbdcd8068026e51
+      spriteID: 6df54ebd6be4a5144ab5013860094d45
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_33
+      name: fireball_11
       rect:
         serializedVersion: 2
-        x: 427
-        y: 44
-        width: 69
-        height: 34
+        x: 53
+        y: 111
+        width: 45
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -826,19 +376,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f16900fdd728d494e80da980165a8cdb
+      spriteID: d28408b7ef0fbca4e9c7af6c74a7e3e0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CriminalOgre_34
+      name: fireball_12
       rect:
         serializedVersion: 2
-        x: 339
-        y: 21
-        width: 70
-        height: 34
+        x: 104
+        y: 111
+        width: 44
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,7 +396,247 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1caf2482bb8fcba41ae0bd7cdc6ceca8
+      spriteID: 7c2f5eb48568d484588452570ba66041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 111
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9520bb706f19f8043921607d228b6949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 111
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f3f95155ccede43a6a942d4336e4d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 58
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faec9452a2f0664a914101d926829fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 58
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc600a60a01a348b37110fd9168f2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 58
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb6ee3e9c6edc44fa40464450f37a89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 58
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a36bc015f0ca048b94c94c9ab0d5c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 58
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d0106ad198c64a9665713ef7f5524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b614c8acdda80543852ee584688d55b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 10
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c483ccaab3e114286d9ce231787290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 10
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8452a38ae4d68a4ea82fb44c3e2d85e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55fed508ca14794db708c076eb7ad1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 10
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c323257de612842a3e8200d6c8cf0c
       vertices: []
       indices: 
       edges: []
@@ -854,7 +644,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9f2b7de8e49732a418e63a8ae233324a
+    spriteID: c1b464b8de43ca44faf26c083e46d8e9
     vertices: []
     indices: 
     edges: []
