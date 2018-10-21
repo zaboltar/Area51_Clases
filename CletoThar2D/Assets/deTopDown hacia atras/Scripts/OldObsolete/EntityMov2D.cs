@@ -26,6 +26,7 @@ public class EntityMov2D : MonoBehaviour {
     // protected es privado para todo aquello q no sea su hijo 
 	protected virtual void Update () {
         transform.Translate(movement);
+        Debug.Log("aFRICA");
         // base 1
         // la manera correcta de cargar assets es con procesos asyncronos
         // resources es un metodo que referencia info contenida en tal carpeta

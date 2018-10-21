@@ -18,6 +18,8 @@ TagManager:
   - Collectable
   - CamArea
   - deathzone
+  - dinoEnemy
+  - fireball
   layers:
   - Default
   - TransparentFX
