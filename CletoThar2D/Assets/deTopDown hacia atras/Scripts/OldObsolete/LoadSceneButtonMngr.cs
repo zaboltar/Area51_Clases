@@ -23,4 +23,20 @@ public class LoadSceneButtonMngr : MonoBehaviour {
 
 	}
 
+
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+
+        UnityEditor.EditorApplication.isPlaying = false;
+        //para el editor durante compiplaciòn de prueba
+
+#else
+
+        Application.Quit();
+        // para compilacion externa de win?
+    
+#endif
+    }
+
 }

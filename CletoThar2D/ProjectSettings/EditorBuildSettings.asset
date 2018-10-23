@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/deTopDown hacia atras/Scenes/2d scenes/creditScene.unity
     guid: 2a2f02dfcad83574e8e757f0e02b25a0
+  - enabled: 1
+    path: Assets/Platformer/Scenes/platformMenuScene.unity
+    guid: e62e81e8ff1db479b92335cfeb68c72c
   m_configObjects: {}
