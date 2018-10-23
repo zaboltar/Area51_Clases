@@ -80,13 +80,13 @@ public class BlueDragGamPlusJames : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		if (other.gameObject.name == "Player") {
+		/*if (other.gameObject.name == "Player") {
 			//Destroy(gameObject.other);
 
 			other.gameObject.SetActive(false);
 			reloading = true;
 			theplayer = other.gameObject;
-		}
+		}*/
 	}
 
 

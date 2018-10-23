@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 114191117114317730}
   - component: {fileID: 61502625024330442}
   - component: {fileID: 50153237293562014}
+  - component: {fileID: 114275842128762834}
+  - component: {fileID: 114540925712567454}
   m_Layer: 0
   m_Name: moreDinoData_0
   m_TagString: dinoEnemy
@@ -37,8 +39,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1126190257950232}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.63, y: -2.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -48.66587, y: -3.5218267, z: 0}
   m_LocalScale: {x: 0.35387817, y: 0.3538782, z: 0.3538782}
   m_Children: []
   m_Father: {fileID: 0}
@@ -122,8 +124,31 @@ MonoBehaviour:
   animator: {fileID: 95483331468209284}
   speed: 5
   direction: {x: 1, y: 0}
-  dinoHealth: 3
-  dinoBlood: {fileID: 1299822458286788, guid: 9e125a07a4d65764ba1aa884ad356ee6, type: 2}
+--- !u!114 &114275842128762834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126190257950232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077d4ed7f736da34f985a99e885cbb32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 25
+  currentHealth: 0
+--- !u!114 &114540925712567454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126190257950232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1febdf507a1b340965f2e921198559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 6
 --- !u!212 &212215874785378014
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gpjHurtEnemy : MonoBehaviour {
+public class gpjHurtPlayer : MonoBehaviour {
+
+	public int damageToGive;
 
 	// Use this for initialization
 	void Start () {
@@ -11,17 +13,12 @@ public class gpjHurtEnemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.gameObject.tag == "dinoEnemy") {
-			Destroy(other.gameObject);
-		}
-
+		if (other.gameObject.tag == "Player") {
+			other.gameObject.GetComponent<gpjHealthManager>().HurtPlayer(damageToGive);
+			}
 	}
-
-
-
-
 }

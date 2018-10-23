@@ -11,8 +11,8 @@ public class dragonEthics : MonoBehaviour {
     public float speed = 1;
     public Vector2 direction;
     public Vector3 movement { get { return direction * speed * Time.deltaTime; } }
-    public int dinoHealth = 3;
-    public GameObject dinoBlood;
+   // public int dinoHealth = 3;
+   // public GameObject dinoBlood;
 
     void Update()
     {
@@ -42,7 +42,7 @@ public class dragonEthics : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-       
+       /*
         if (other.tag == "bolt")
 
         {
@@ -60,7 +60,7 @@ public class dragonEthics : MonoBehaviour {
 
         }
                 
-
+*/
     }
 
 

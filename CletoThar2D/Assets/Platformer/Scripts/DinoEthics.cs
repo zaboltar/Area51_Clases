@@ -11,8 +11,8 @@ public class DinoEthics : MonoBehaviour {
     public float speed = 1;
     public Vector2 direction;
     public Vector3 movement { get { return direction * speed * Time.deltaTime; } }
-    public int dinoHealth = 3;
-    public GameObject dinoBlood;
+   // public int dinoHealth = 3;
+   // public GameObject dinoBlood;
     
     void Update()
     {
@@ -51,7 +51,7 @@ public class DinoEthics : MonoBehaviour {
     {
         // if (other.CompareTag("bolt"))
 
-        if (other.tag == "bolt")
+       /* if (other.tag == "bolt")
 
         {
             Destroy(other.gameObject);
@@ -66,7 +66,7 @@ public class DinoEthics : MonoBehaviour {
                 Destroy(gameObject, 1.0f);
             }
 
-        }
+        }*/ //esto lo saco por ahora para uniformizar la implementación gpj
 
 
 

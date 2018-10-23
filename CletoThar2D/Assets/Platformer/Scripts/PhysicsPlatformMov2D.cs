@@ -22,9 +22,10 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     const float minDistance = 0.1f; //0.05 || 0.5f
     public Vector2 pointLeft { get { return rb2D.position + distanceLeft; }}
     public Vector2 pointRight { get { return rb2D.position + distanceRight; }}
-    public int playerHealth = 3;
-    public Text HPText;
+    //public int playerHealth = 3;
+   // public Text HPText;
     public GameObject blood;
+   //public GameObject spearWeapon;
 
     
     void Reset () {
@@ -34,7 +35,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     }
 
 	void Start () {
-        HPText.text = "Health: " + playerHealth;
+        //HPText.text = "Health: " + playerHealth;
         
         distanceLeft.x = -(col2D.bounds.extents.x - margin);
         distanceLeft.y = -col2D.bounds.extents.y;
@@ -116,8 +117,17 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         GroundCheck();
 
         SpriteRenderer rend = GetComponent<SpriteRenderer>();
-        if (movement.x > 0 && rend.flipX) { rend.flipX = false; }
-        else if (movement.x < 0 && !rend.flipX) { rend.flipX = true; }
+        if (movement.x > 0 && rend.flipX) {
+         rend.flipX = false; 
+        // spearWeapon.GetComponent<SpriteRenderer>().flipX = false;//tmb lo intente con box collider2d: nada
+
+       }
+        else if (movement.x < 0 && !rend.flipX) { 
+          rend.flipX = true;
+          //spearWeapon.GetComponent<SpriteRenderer>().flipX = true;
+          }
+
+        // ACA FALTA IMPLEMENTAR: el giro del spear a la par que del player.renderer
 
 
 
@@ -167,19 +177,24 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
         if ( other.CompareTag("dinoEnemy"))
         {
-            playerHealth--;
+            //playerHealth--;
             other.GetComponent<Animator>().SetBool("isAttacking", true);
             Instantiate(blood, transform.position, Quaternion.identity);
-            HPText.text = "Health: " + playerHealth;
-            if (playerHealth <= 0)
+          
+
+
+
+
+            //HPText.text = "Health: " + playerHealth;
+            /*if (playerHealth <= 0)
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene(8);
-            }
+            }*/
 
             
         }
 
-        if (other.CompareTag("fireball"))
+        /*if (other.CompareTag("fireball"))
         {
             playerHealth--;
            
@@ -191,7 +206,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
             }
 
 
-        }
+        }*/
 
 
     }

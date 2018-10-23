@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Utilities2D;
@@ -61,6 +61,7 @@ public class adaptsraK : MonoBehaviour {
             Debug.Log("Fujimorizado");
             
             GameControl.instance.RestartLevel();
+            //UnityEngine.SceneManagement.SceneManager.LoadScene(8);  
 
         }
 
