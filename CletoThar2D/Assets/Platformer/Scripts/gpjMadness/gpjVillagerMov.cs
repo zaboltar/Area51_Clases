@@ -5,22 +5,19 @@ using UnityEngine;
 public class gpjVillagerMov : MonoBehaviour {
 
 	public float moveSpeed;
-
 	private Vector2 minWalkPoint;
 	private Vector2 maxWalkPoint;
-
-
 	private Rigidbody2D myRigidbody;
 	public bool isWalking;
 	public float walkTime;
 	public float waitTime;
 	private float walkCounter;
 	private float waitCounter;
-
 	private int WalkDirection;
-
 	public Collider2D walkZone;
 	private bool hasWalkZone;
+	public bool canMove;
+	private gpjDialogueManager theDM;
 
 
 
@@ -28,6 +25,7 @@ public class gpjVillagerMov : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody2D>();
+		theDM = FindObjectOfType<gpjDialogueManager>();
 
 		waitCounter = waitTime;
 		walkCounter = walkTime;
@@ -42,10 +40,23 @@ public class gpjVillagerMov : MonoBehaviour {
 			hasWalkZone = true;
 		 }
 
+		 canMove = true;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+
+		if (!theDM.dialogueActive){
+			canMove = true;
+		}
+
+		if (!canMove){
+			myRigidbody.velocity = Vector2.zero;
+			return;
+		}
+
 		if (isWalking) {
 			walkCounter -= Time.deltaTime;
 			

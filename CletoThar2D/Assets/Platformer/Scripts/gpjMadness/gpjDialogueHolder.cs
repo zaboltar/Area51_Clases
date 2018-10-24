@@ -27,6 +27,11 @@ public class gpjDialogueHolder : MonoBehaviour {
 					dMan.currentLine = 0;
 					dMan.ShowDialogue();
 				}
+
+				if (transform.parent.GetComponent<gpjVillagerMov>() != null) {
+					transform.parent.GetComponent<gpjVillagerMov>().canMove = false;
+
+				}
 			}
 		}
 	}
