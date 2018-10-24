@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 114231738844760996}
   - component: {fileID: 61753738752007222}
   - component: {fileID: 114007183724332364}
-  m_Layer: 0
+  - component: {fileID: 114474161911706414}
+  m_Layer: 2
   m_Name: flying_dragon-red_9
   m_TagString: dinoEnemy
   m_Icon: {fileID: 0}
@@ -100,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   currentHealth: 0
+  expToGive: 25
 --- !u!114 &114231738844760996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,6 +117,19 @@ MonoBehaviour:
   animator: {fileID: 95786514078994268}
   speed: 3
   direction: {x: -1, y: 0}
+--- !u!114 &114474161911706414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995417751694362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1febdf507a1b340965f2e921198559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 11
+  dmgNumber: {fileID: 1240806796634822, guid: 382a3ac2c3f99f542b096fed4198ab42, type: 2}
 --- !u!212 &212520247106402430
 SpriteRenderer:
   m_ObjectHideFlags: 1

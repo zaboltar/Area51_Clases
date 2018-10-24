@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712446125797624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.83, y: -2.9618268, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 10
   animator: {fileID: 95500006937844638}
-  speed: 3
+  speed: 8
   direction: {x: -1, y: 0}
 --- !u!114 &114639972349076602
 MonoBehaviour:
@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 16
+  dmgNumber: {fileID: 1240806796634822, guid: 382a3ac2c3f99f542b096fed4198ab42, type: 2}
 --- !u!114 &114830976065687452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -149,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 15
   currentHealth: 0
+  expToGive: 20
 --- !u!212 &212130039590973010
 SpriteRenderer:
   m_ObjectHideFlags: 1

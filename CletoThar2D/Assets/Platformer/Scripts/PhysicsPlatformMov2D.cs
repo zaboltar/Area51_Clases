@@ -178,7 +178,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         if ( other.CompareTag("dinoEnemy"))
         {
             //playerHealth--;
-            other.GetComponent<Animator>().SetBool("isAttacking", true);
+           // other.GetComponent<Animator>().SetBool("isAttacking", true);
             Instantiate(blood, transform.position, Quaternion.identity);
           
 

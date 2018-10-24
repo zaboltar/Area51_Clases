@@ -84,10 +84,11 @@ public class BlueDragGamPlusJames : MonoBehaviour {
 			//Destroy(gameObject.other);
 
 			other.gameObject.SetActive(false);
-			reloading = true;
+			
 			theplayer = other.gameObject;
 		}*/
-	}
+	reloading = true;
+}
 
 
 
