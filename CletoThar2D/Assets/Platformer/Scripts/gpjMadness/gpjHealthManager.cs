@@ -66,6 +66,12 @@ public class gpjHealthManager : MonoBehaviour {
 		playerCurrentHealth = playerMaxHealth;
 	}
 
+	void OnTriggerEnter2D (Collider2D other){
+		if (other.tag == "health"){
+			playerCurrentHealth++;
+			Destroy(other.gameObject);
+		}
+	}
 
 
 }

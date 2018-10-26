@@ -20,6 +20,7 @@ TagManager:
   - deathzone
   - dinoEnemy
   - fireball
+  - health
   layers:
   - Default
   - TransparentFX
