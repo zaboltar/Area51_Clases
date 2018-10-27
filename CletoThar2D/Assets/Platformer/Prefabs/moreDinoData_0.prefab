@@ -138,6 +138,7 @@ MonoBehaviour:
   maxHealth: 25
   currentHealth: 0
   expToGive: 30
+  enemyQuestName: dinosaurido
 --- !u!114 &114540925712567454
 MonoBehaviour:
   m_ObjectHideFlags: 1

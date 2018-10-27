@@ -18,7 +18,7 @@ public class gpjDialogueManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (dialogueActive && Input.GetKeyDown(KeyCode.Z)) {
+		if (dialogueActive && Input.GetKeyUp(KeyCode.Z)) {
 			//dBox.SetActive(false);	
 			//dialogueActive = false;
 			currentLine++;

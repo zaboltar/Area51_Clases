@@ -68,7 +68,7 @@ public class gpjHealthManager : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.tag == "health"){
-			playerCurrentHealth++;
+			playerCurrentHealth += 5;
 			Destroy(other.gameObject);
 		}
 	}
