@@ -18,6 +18,8 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     Vector3 movement;
     Vector2 distanceLeft;
     Vector2 distanceRight;
+    Vector2 pointCenter{ get { return rb2D.position + distanceCenter; }}
+    Vector2 distanceCenter;
     const float margin = 0.2f;
     const float minDistance = 0.1f; //0.05 || 0.5f
     public Vector2 pointLeft { get { return rb2D.position + distanceLeft; }}
@@ -41,6 +43,8 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         distanceLeft.y = -col2D.bounds.extents.y;
         distanceRight.x = col2D.bounds.extents.x - margin;
         distanceRight.y = -col2D.bounds.extents.y;
+        distanceCenter.y = -col2D.bounds.extents.y;
+
 	}
 	
 	void Update () {
@@ -144,7 +148,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
     void GroundCheck()
     {
-        Vector2[] points = { pointLeft, pointRight };
+        Vector2[] points = { pointLeft, pointCenter, pointRight };
         RaycastHit2D[] hits2D = new RaycastHit2D[points.Length];
         grounded = false;
 
