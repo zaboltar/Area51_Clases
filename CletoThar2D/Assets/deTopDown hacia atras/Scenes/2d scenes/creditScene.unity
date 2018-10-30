@@ -497,9 +497,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Introducci\xF3n a la Ludopat\xEDa\n\nProgramado en Area51 Training Center\nSept.
-    2018\n\nDesarrollo: Cleto Thar\nsupervisado por Hilble Essenwanger\n\nM\xFAsica:
-    Thar, Amusia\n\nArte: Cleto Thar, LightSkinFrank, Philipp Lensen, Google images\n"
+  m_Text: "Programado en Area51 Training Center\nSept. 2018\n\nDesarrollo: Cleto Thar\nsupervisado
+    por Hilble Essenwanger\n\nM\xFAsica: Thar, Amusia\n\nArte: Cleto Thar, LightSkinFrank,
+    Philipp Lensen, Google images, Dravenx\n"
 --- !u!222 &1409205031
 CanvasRenderer:
   m_ObjectHideFlags: 0

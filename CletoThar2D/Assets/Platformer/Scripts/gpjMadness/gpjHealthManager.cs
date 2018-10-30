@@ -13,6 +13,8 @@ public class gpjHealthManager : MonoBehaviour {
 	private float flashCounter;
 
 	private SpriteRenderer playerSprite;
+
+	public GameObject blood;
 	
 	// Use this for initialization
 	void Start () {
@@ -58,6 +60,7 @@ public class gpjHealthManager : MonoBehaviour {
 
 		flashActive = true;
 		flashCounter = flashLength;
+		Instantiate(blood, transform.position, Quaternion.identity);
 
 
 	}
