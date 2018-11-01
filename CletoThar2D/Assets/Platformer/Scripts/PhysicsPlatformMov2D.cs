@@ -20,7 +20,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
     Vector2 distanceRight;
     Vector2 pointCenter{ get { return rb2D.position + distanceCenter; }}
     Vector2 distanceCenter;
-    const float margin = 0.1f;
+    const float margin = 0.2f;
     const float minDistance = 0.1f; //0.05 || 0.5f
     public Vector2 pointLeft { get { return rb2D.position + distanceLeft; }}
     public Vector2 pointRight { get { return rb2D.position + distanceRight; }}
@@ -144,7 +144,6 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         Gizmos.color = Color.red;
         Gizmos.DrawRay (pointLeft, Vector3.down * minDistance);
         Gizmos.DrawRay(pointRight, Vector3.down * minDistance); //0.1||0.5f
-    	Gizmos.DrawRay(pointCenter, Vector3.down * minDistance);
     }
 
     void GroundCheck()
