@@ -80,7 +80,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         if (grounded && Input.GetKeyDown(KeyCode.Space)) {
             
            //ESTO ESTA BIEN AQUI?!
-           animator.SetBool ("isJumping", true); 
+           animator.SetTrigger("Jump");
            speed.y = jumpForce;
         } 
 
@@ -94,7 +94,7 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         	 
         	
             speed.y -= gravity * Time.fixedDeltaTime;
-            animator.SetBool ("isJumping", false);//ESTO ESTA BIEN AQUI?!
+            
         } 
 
         GroundCheck();
