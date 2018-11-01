@@ -8,14 +8,20 @@ using UnityEngine.UI;
 public class PhysicsPlatformMov2D : MonoBehaviour {
 
     public Vector2 speed;
+    public Animator animator;
     public List<AxisPair> axes;
     public Rigidbody2D rb2D;
-    public float gravity = 8;
+    public Collider2D col2D; 
+    public float gravity = 8f;
     public float jumpForce = 5f;
     public bool grounded;
-    public Animator animator; //anim test
-    public Collider2D col2D;
+
+    public Collider2D attackOrigin;
+    const float attackDistance = 0.8f;
+    bool isAttack;
+ 
     Vector3 movement;
+    float lastDir;
     Vector2 distanceLeft;
     Vector2 distanceRight;
     Vector2 pointCenter{ get { return rb2D.position + distanceCenter; }}
@@ -54,36 +60,9 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
                 movement += axes[i].direction;
             }
         }
-            //test
-           if (movement != Vector3.zero) {
-            animator.SetBool ("Moving", true);
-            animator.SetFloat ("Horizontal", movement.x);
-            animator.SetFloat ("Vertical", movement.y);
-          } else {
-            animator.SetBool ("Moving", false);
-          }
-          //anim test
+        //anim test moved to fixedupdate
 
-          if (Input.GetKeyDown(KeyCode.Q)) {
-          animator.SetBool ("Att1", true);
-          
-        } else if (Input.GetKeyUp(KeyCode.Q)) {
-          animator.SetBool ("Att1", false);
-	       }
-
-           if (Input.GetKeyDown(KeyCode.E)) {
-          animator.SetBool ("Att2", true);
-          
-        } else if (Input.GetKeyUp(KeyCode.E)) {
-          animator.SetBool ("Att2", false);
-           }
-
-           if (Input.GetKeyDown(KeyCode.R)) {
-          animator.SetBool ("Att3", true);
-          
-        } else if (Input.GetKeyUp(KeyCode.R)) {
-          animator.SetBool ("Att3", false);
-           }
+         // also attacks
 
           // if (Input.GetKeyDown(KeyCode.T)) {    throw=click
           //animator.SetBool ("Att4", true);
@@ -112,10 +91,10 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
     void FixedUpdate () {
         if (!grounded) {
-        	 //ESTO ESTA BIEN AQUI?!
-        	animator.SetBool ("isJumping", false);
+        	 
+        	
             speed.y -= gravity * Time.fixedDeltaTime;
-            
+            animator.SetBool ("isJumping", false);//ESTO ESTA BIEN AQUI?!
         } 
 
         GroundCheck();
@@ -123,18 +102,59 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
         SpriteRenderer rend = GetComponent<SpriteRenderer>();
         if (movement.x > 0 && rend.flipX) {
          rend.flipX = false; 
+         lastDir =1f;
         // spearWeapon.GetComponent<SpriteRenderer>().flipX = false;//tmb lo intente con box collider2d: nada
 
-       }
-        else if (movement.x < 0 && !rend.flipX) { 
+       } else if (movement.x < 0 && !rend.flipX) { 
           rend.flipX = true;
+          lastDir =-1f;
           //spearWeapon.GetComponent<SpriteRenderer>().flipX = true;
           }
 
         // ACA FALTA IMPLEMENTAR: el giro del spear a la par que del player.renderer
+            //ahora paso esta sección que antes estaba en el update
+              //test
+           if (movement != Vector3.zero) {
+            animator.SetBool ("Moving", true);
+            animator.SetFloat ("Horizontal", movement.x);
+            animator.SetFloat ("Vertical", movement.y);
+          } else {
+            animator.SetBool ("Moving", false);
+          }
+          //anim test + //revolution of new box collider
+
+           if (grounded && Input.GetKeyDown(KeyCode.Q)) {
+          animator.SetTrigger("Attack0");
+          Vector3 temp = attackOrigin.transform.localPosition;
+          temp.x = attackDistance * lastDir;
+          attackOrigin.transform.localPosition = temp;
+          attackOrigin.enabled = true;
+          isAttack = true;
+          } 
+
+            if (grounded && Input.GetKeyDown(KeyCode.W)) {
+          animator.SetTrigger("Attack1");
+          Vector3 temp = attackOrigin.transform.localPosition;
+          temp.x = attackDistance * lastDir;
+          attackOrigin.transform.localPosition = temp;
+          attackOrigin.enabled = true;
+          isAttack = true;
+          } 
+
+            if (grounded && Input.GetKeyDown(KeyCode.E)) {
+          animator.SetTrigger("Attack2");
+          Vector3 temp = attackOrigin.transform.localPosition;
+          temp.x = attackDistance * lastDir;
+          attackOrigin.transform.localPosition = temp;
+          attackOrigin.enabled = true;
+          isAttack = true;
+          } 
 
 
 
+
+
+        if (isAttack) { movement.x =0;}
         movement = movement.normalized * speed.x * Time.fixedDeltaTime;
         movement.y = speed.y * Time.fixedDeltaTime;
         rb2D.MovePosition (transform.position + movement);
@@ -159,10 +179,12 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
             if (hits2D[i])
             {
                // Debug.Log (hits2D[i].collider.name);
+              PlatformBehaviour behaviour = hits2D[i].collider.GetComponent<PlatformBehaviour>();
                 if (speed.y < 0){
                     transform.position = (transform.position + (Vector3.down * minDistance));
                     // Debug.Log algo
                     speed.y = 0;
+                    if (behaviour != null) { behaviour.OnPlatformStep(gameObject);}
                 }
                 grounded = true;
                 break;
@@ -185,16 +207,6 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
            // other.GetComponent<Animator>().SetBool("isAttacking", true);
             Instantiate(blood, transform.position, Quaternion.identity);
           
-
-
-
-
-            //HPText.text = "Health: " + playerHealth;
-            /*if (playerHealth <= 0)
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(8);
-            }*/
-
             
         }
 
@@ -215,6 +227,9 @@ public class PhysicsPlatformMov2D : MonoBehaviour {
 
     }
 
-
+    void OnAttackEnd(){
+      attackOrigin.enabled=false;
+      isAttack = false;
+    }
 
 }
