@@ -22,10 +22,8 @@ public GameObject shot;
 			Instantiate(shot, playerPos.position, Quaternion.identity);
 			// creo que acá está el problema, al instanciar esto, me empuja, necesito un vector3 con offset del playerpos?
 
-			anim4.SetBool ("Att4", true);
+			anim4.SetTrigger ("Spear");
 			
-		} else {
-			anim4.SetBool ("Att4", false);
-		}
+		} 
 	}
 }
