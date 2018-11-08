@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class CharacterBaseMov3D : MonoBehaviour {
 
+    public struct CharTransformData {
+        public Vector3 position;
+        public Quaternion rotation;
+    }
+
     Rigidbody rigBod;
     Vector3 movement;
-    Vector3 respawnPos;
+
+    CharTransformData respawnData;
+
 
     public float speed = 5f;
     public float angSpeed = 25f;
@@ -15,7 +22,8 @@ public class CharacterBaseMov3D : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rigBod = GetComponent<Rigidbody>();
-        respawnPos = transform.position;
+        respawnData.position = transform.position;
+        respawnData.rotation = transform.rotation;
 	}
 
 	void Update () {
@@ -33,7 +41,14 @@ public class CharacterBaseMov3D : MonoBehaviour {
 
     void Respawn () {
         rigBod.velocity = Vector3.zero;
-        rigBod.MovePosition(respawnPos);
+        Reposition(respawnData);
+        CamBehaviour playerCam = Camera.main.GetComponent<CamBehaviour>();
+        playerCam.Reposition(respawnData.position + playerCam.followDistance);
+    }
+
+    public void Reposition(CharTransformData transformData) {
+        rigBod.MovePosition(respawnData.position);
+        rigBod.MoveRotation(respawnData.rotation);
     }
 
 	void OnTriggerExit (Collider other) {
