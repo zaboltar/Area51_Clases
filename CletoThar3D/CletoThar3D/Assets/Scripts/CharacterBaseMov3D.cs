@@ -1,13 +1,12 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//heredamos los structs de este namespace
+using EntityData.StructLib;
 
 public class CharacterBaseMov3D : MonoBehaviour {
 
-    public struct CharTransformData {
-        public Vector3 position;
-        public Quaternion rotation;
-    }
+
 
     Rigidbody rigBod;
     Vector3 movement;
@@ -42,14 +41,18 @@ public class CharacterBaseMov3D : MonoBehaviour {
     void Respawn () {
         rigBod.velocity = Vector3.zero;
         Reposition(respawnData);
-        CamBehaviour playerCam = Camera.main.GetComponent<CamBehaviour>();
-        playerCam.Reposition(respawnData.position + playerCam.followDistance);
+        CamBehaviour.main.Reposition(respawnData.position + CamBehaviour.main.data.followDistance);
     }
 
     public void Reposition(CharTransformData transformData) {
         rigBod.MovePosition(respawnData.position);
         rigBod.MoveRotation(respawnData.rotation);
     }
+
+    public void SetRespawn (CharTransformData transformData) {
+        respawnData = transformData;
+    }
+
 
 	void OnTriggerExit (Collider other) {
         if (other.CompareTag("PlayArea")) {

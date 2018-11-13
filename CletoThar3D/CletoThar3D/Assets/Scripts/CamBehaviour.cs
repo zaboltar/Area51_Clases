@@ -1,42 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EntityData.StructLib;
 
 public class CamBehaviour : MonoBehaviour {
+    
+    private TargetData defaultData;
+    public TargetData data; //currentData
 
-    //[System.Serializable]
-    public struct TargetData {
-        public Transform target;
-        public Vector3 focusDistance;
-        public Vector3 followDistance;
-        public float minFollowSpeed;
-        public void SetFromVariables (Transform target, Vector3 focus, Vector3 follow, float minSpeed) {
-            this.target = target;
-            focusDistance = focus;
-            followDistance = follow;
-            minFollowSpeed = minSpeed;
-        }
-    }
-
-    public Transform target;
-    public Vector3 focusDistance;
-    Vector3 focusPoint { get { return target.position + GetRelativePos(target, focusDistance); }}
-    public Vector3 followDistance;
-    Vector3 followPoint { get { return target.position + GetRelativePos(target, followDistance); } }
-    public float minFollowSpeed = 1f;
+    Vector3 focusPoint { get { return data.target.position + GetRelativePos(data.target, data.focusDistance); }}
+    Vector3 followPoint { get { return data.target.position + GetRelativePos(data.target, data.followDistance); } }
     public float followDistanceDelta { get { return Vector3.Distance(transform.position, followPoint); }}
 
-    public TargetData defaultData;
+    static public CamBehaviour main;
 
-	
+	private void Awake() {
+        main = Camera.main.GetComponent<CamBehaviour>();
+	}
+
+
+
 	void Start () {
-        defaultData.SetFromVariables(target, focusDistance, followDistance, minFollowSpeed);
-		
+        //defaultData.SetFromVariables(target, focusDistance, followDistance, minFollowSpeed);
+        defaultData = data;
 	}
 	
 	
 	void LateUpdate () {
-        transform.position = Vector3.MoveTowards(transform.position, followPoint, ( minFollowSpeed + followDistanceDelta) * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, followPoint, ( data.minFollowSpeed + followDistanceDelta) * Time.deltaTime);
         
         transform.LookAt(focusPoint);
         // transform.lookat redirecciona en virtud del eje Z. El LookAt normaliza e iguala el Z hacia su target LookAteado. El eje Z
@@ -62,18 +53,20 @@ public class CamBehaviour : MonoBehaviour {
         transform.position = updatedPosition;
 	}
 
+    public void ResetData() {
+        data = defaultData;
+    }
+
 	void OnDrawGizmos() {
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(followPoint, focusPoint);
-        Gizmos.DrawWireSphere(followPoint, 0.25f);
-        Gizmos.color = Color.white;
-        Gizmos.DrawSphere(focusPoint, 0.15f);
 
+        if (data.target) {
+            Gizmos.color = Color.green;
+            Gizmos.DrawLine(followPoint, focusPoint);
+            Gizmos.DrawWireSphere(followPoint, 0.25f);
+            Gizmos.color = Color.white;
+            Gizmos.DrawSphere(focusPoint, 0.15f);
 
-
-
-
-    
+        }
 
 	}
 }
