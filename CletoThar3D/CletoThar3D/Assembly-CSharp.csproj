@@ -59,12 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CamBehaviour.cs" />
-    <Compile Include="Assets\Scripts\CharacterBaseMov3D.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint.cs" />
-    <Compile Include="Assets\Scripts\CustomCamArea.cs" />
-    <Compile Include="Assets\Scripts\PlatformBehaviour3D.cs" />
-    <Compile Include="Assets\Scripts\StructLib.cs" />
+    <Compile Include="Assets\Scripts\Camera\CamBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Camera\CustomCamArea.cs" />
+    <Compile Include="Assets\Scripts\LevelElements\Activatable.cs" />
+    <Compile Include="Assets\Scripts\LevelElements\Activator.cs" />
+    <Compile Include="Assets\Scripts\LevelElements\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\LevelElements\PlatformBehaviour3D.cs" />
+    <Compile Include="Assets\Scripts\LevelElements\Switch.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterBaseMov3D.cs" />
+    <Compile Include="Assets\Scripts\ProjectNamespaces\StructLib.cs" />
+    <Compile Include="Assets\Scripts\ProjectNamespaces\VectorLib.cs" />
     <Compile Include="Assets\Scripts\TODO_RESEARCH.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
