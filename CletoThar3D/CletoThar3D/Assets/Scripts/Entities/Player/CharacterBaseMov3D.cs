@@ -21,6 +21,8 @@ public class CharacterBaseMov3D : MonoBehaviour {
 
     public bool grounded = false;
     List<Collider> groundCollection;
+    Activator currentActivator;
+      //List<GroundData> groundCollection;
 
 	// Use this for initialization
 	void Start () {
@@ -33,7 +35,10 @@ public class CharacterBaseMov3D : MonoBehaviour {
 
 	void Update () {
         if (grounded && Input.GetKeyDown(KeyCode.Space)) {
+        	// set velocity Y to zero for consistent jump height
             rigBod.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+        } else if (currentActivator && Input.GetKeyDown(KeyCode.E)) {
+            currentActivator.Use();
         }
 
         if (rigBod.velocity.x != 0 || rigBod.velocity.z != 0) {
@@ -49,11 +54,10 @@ public class CharacterBaseMov3D : MonoBehaviour {
         movement = transform.forward * Input.GetAxis("Vertical");
         rigBod.MovePosition(rigBod.position + (movement * speed * Time.fixedDeltaTime));
         Quaternion rotation = Quaternion.Euler(Vector3.up * Input.GetAxis("Horizontal") * angSpeed * Time.fixedDeltaTime);
-  
-        // Quaternion rotation = Quaternion.Euler(Vector3.up * Input.GetAxis("Horizontal") * angSpeed * Time.fixedDeltaTime);
-            // aca podria cambiarse para variar la vision de camara, reemplazar "horiz" x Mouse X
+        // aca podria cambiarse para variar la vision de camara, reemplazar "horiz" x Mouse X
         // Quaternion rotation = Quaternion.Euler(Vector3.up * Input.GetAxis("Mouse X") * angSpeed * Time.fixedDeltaTime);
         rigBod.MoveRotation(rotation * rigBod.rotation);
+
 	}
 
     void Respawn () {
@@ -76,41 +80,24 @@ public class CharacterBaseMov3D : MonoBehaviour {
         return groundCollection.Count != 0 ? groundCollection[0].incNormalized : 0;
     }*/
 
-	void OnCollisionEnter(Collision collision) {
-        /*if (collision.collider.CompareTag("MovingPlatform")) {
-            transform.SetParent(collision.transform); 
-            //emparenta el player a la plataforma, hace falta desvincularlo!
-            // se moviò esta parte a otro lado
-        }*/
-	}
-
-	void OnCollisionStay (Collision collision) {
+void OnCollisionStay (Collision collision) {
         if (!groundCollection.Contains(collision.collider)) {
             foreach (ContactPoint contact in collision.contacts) {
                 Debug.DrawRay(contact.point, contact.normal, Color.yellow, 0.25f);
                 float inclination;
-                if ((inclination = Vector3.Dot(contact.normal, Vector3.up)) > 0.85f)
-                {
+                if ((inclination = Vector3.Dot(contact.normal, Vector3.up)) > 0.85f) {
                     grounded = true;
                     groundCollection.Add(collision.collider);
-                }
-                if (collision.collider.CompareTag("MovingPlatform"))
-                {
-                    transform.SetParent(collision.transform);
+                    if (collision.collider.CompareTag("MovingPlatform")) {
+                        transform.SetParent(collision.transform);
+                    }
                     break;
                 }
             }
         }
     }
 
-	void OnTriggerEnter(Collider other)
-	{
-        if (other.CompareTag("Activator")) {
-            other.GetComponent<Activator>();
-            currentActivator = other.
-        }	
-	}
-
+	
 	void OnCollisionExit(Collision collision) {
         if (groundCollection.Contains(collision.collider)) {
             groundCollection.Remove(collision.collider);
@@ -122,20 +109,31 @@ public class CharacterBaseMov3D : MonoBehaviour {
             } //lookAtThis
 
         }
+
         if (groundCollection.Count == 0) {
             grounded = false;
         }
 
-
     }
+
+    void OnTriggerEnter(Collider other)
+	{
+        if (other.CompareTag("Activator")) {
+            other.GetComponent<Activator>();
+            currentActivator = other.GetComponent<Activator>();
+        }	
+	}
 
 
 
 	void OnTriggerExit (Collider other) {
         if (other.CompareTag("PlayArea")) {
             Respawn();
-        } else if (other)
+        } else if (other.CompareTag("Activator")) {
+            currentActivator = null;
+        }
 	}
+	
 	void OnDrawGizmos () {
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, transform.forward);

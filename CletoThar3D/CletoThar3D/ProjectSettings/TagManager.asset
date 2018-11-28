@@ -7,6 +7,7 @@ TagManager:
   - PlayArea
   - CamArea
   - MovingPlatform
+  - Activator
   layers:
   - Default
   - TransparentFX

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114160759163149556}
   - component: {fileID: 61954244992825972}
   m_Layer: 0
-  m_Name: "32x32grassPitago\u0301rico (28)"
+  m_Name: "32x32grassPitag\xF3rico (28)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

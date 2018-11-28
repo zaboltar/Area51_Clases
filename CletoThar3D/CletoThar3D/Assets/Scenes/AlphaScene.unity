@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 724779648}
   m_Layer: 0
   m_Name: Switch
-  m_TagString: Untagged
+  m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -511,6 +511,7 @@ MonoBehaviour:
   isSwitched: 0
   activeColor: {r: 0.20902658, g: 0.8679245, b: 0.11053756, a: 1}
   inactiveColor: {r: 0.8113208, g: 0.15155897, b: 0.12629052, a: 1}
+  target: {fileID: 0}
 --- !u!65 &724779644
 BoxCollider:
   m_ObjectHideFlags: 0
