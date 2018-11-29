@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FPSscene.unity
+- path: Assets/Scenes/AlphaScene.unity
   isLoaded: 1
   isActive: 1

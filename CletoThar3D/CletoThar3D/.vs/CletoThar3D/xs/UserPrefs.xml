@@ -1,14 +1,6 @@
 ﻿<Properties StartupConfiguration="{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/CharacterBaseMov3D.cs">
-    <Files>
-      <File FileName="Assets/Scripts/LevelElements/Switch.cs" Line="49" Column="2" />
-      <File FileName="Assets/Scripts/LevelElements/Activatable.cs" Line="16" Column="21" />
-      <File FileName="Assets/Scripts/LevelElements/Activator.cs" Line="15" Column="45" />
-      <File FileName="Assets/Scripts/LevelElements/PlatformBehaviour3D.cs" Line="5" Column="47" />
-      <File FileName="Assets/Scripts/Player/CharacterBaseMov3D.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

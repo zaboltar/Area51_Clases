@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CletoThar3D", "Assembly-CSharp-firstpass.csproj", "{92103FDB-F97A-8355-F982-F970FE7F1ED7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CletoThar3D", "Assembly-CSharp.csproj", "{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CletoThar3D", "Assembly-CSharp-Editor-firstpass.csproj", "{B96B3953-8804-449D-99C7-1FB174355AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92103FDB-F97A-8355-F982-F970FE7F1ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92103FDB-F97A-8355-F982-F970FE7F1ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92103FDB-F97A-8355-F982-F970FE7F1ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92103FDB-F97A-8355-F982-F970FE7F1ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96B3953-8804-449D-99C7-1FB174355AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96B3953-8804-449D-99C7-1FB174355AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96B3953-8804-449D-99C7-1FB174355AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96B3953-8804-449D-99C7-1FB174355AC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

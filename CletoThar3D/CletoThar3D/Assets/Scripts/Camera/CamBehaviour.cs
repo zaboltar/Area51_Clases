@@ -27,9 +27,10 @@ public class CamBehaviour : MonoBehaviour {
 	
 	
 	void LateUpdate () {
+        transform.LookAt(focusPoint);
         transform.position = Vector3.MoveTowards(transform.position, followPoint, ( data.minFollowSpeed + followDistanceDelta) * Time.deltaTime);
         
-        transform.LookAt(focusPoint);
+       
         // transform.lookat redirecciona en virtud del eje Z. El LookAt normaliza e iguala el Z hacia su target LookAteado. El eje Z
         // es una suerte del "forward" del obj.
         // la càmara es lo ùltimo que se updatea en el proceso de ejecuciòn, asì deberìa ser, por lo que corresponde

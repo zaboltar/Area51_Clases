@@ -14,16 +14,38 @@ public class Activatable : MonoBehaviour {
 
     // ciclo de vida de soft: 1 analisis 2 diseño y sus patrones 3 implementacion 4 test (unit,integration, validation) 5 mantenimiento 
     // y volver al 1
-    public virtual void OnStart ( ) {
-        
+
+    protected bool activated;
+
+    protected List<Activator> linkedActivators = new List<Activator>();
+
+    public void LinkActivator(Activator activator) {
+        linkedActivators.Add(activator);
+    }
+
+    public Activator[] LinkedActivators () {
+        return linkedActivators.ToArray();
+    }
+
+  
+	
+
+	public virtual void OnStart ( ) {
+
+
+
     }
 
     public virtual void OnActive ( ) {
-        
+
+
+
     }
 
     public virtual void OnEnd ( ) {
-        
+
+
+
     }
 
 }
