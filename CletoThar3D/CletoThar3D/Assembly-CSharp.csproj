@@ -62,7 +62,9 @@
     <Compile Include="Assets\Scripts\Camera\CamBehaviour.cs" />
     <Compile Include="Assets\Scripts\Camera\CustomCamArea.cs" />
     <Compile Include="Assets\Scripts\Entities\Player\CharacterBaseMov3D.cs" />
-    <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\FPS\Gun.cs" />
+    <Compile Include="Assets\Scripts\FPS\Target.cs" />
+    <Compile Include="Assets\Scripts\FPS\WeaponSwitching.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activatable.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activator.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Checkpoint.cs" />
@@ -71,7 +73,6 @@
     <Compile Include="Assets\Scripts\LevelElements\Switch.cs" />
     <Compile Include="Assets\Scripts\ProjectNamespaces\StructLib.cs" />
     <Compile Include="Assets\Scripts\ProjectNamespaces\VectorLib.cs" />
-    <Compile Include="Assets\Scripts\Target.cs" />
     <Compile Include="Assets\Scripts\TODO_RESEARCH.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />

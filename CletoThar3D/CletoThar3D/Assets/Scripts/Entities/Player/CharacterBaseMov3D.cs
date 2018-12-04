@@ -20,26 +20,41 @@ public class CharacterBaseMov3D : MonoBehaviour {
     public float jumpForce = 10f;
 
     public bool grounded = false;
+    public bool inputEnabled = true;
+
     List<Collider> groundCollection;
     Activator currentActivator;
-      //List<GroundData> groundCollection;
+    //List<GroundData> groundCollection;
+
+    Animator playerAnimator;
 
 	// Use this for initialization
 	void Start () {
 		groundCollection = new List<Collider>();
 
         rigBod = GetComponent<Rigidbody>();
+
+        playerAnimator = GetComponent<Animator>();
         respawnData.position = transform.position;
         respawnData.rotation = transform.rotation;
 	}
 
 	void Update () {
-        if (grounded && Input.GetKeyDown(KeyCode.Space)) {
-        	// set velocity Y to zero for consistent jump height
-            rigBod.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
-        } else if (currentActivator && Input.GetKeyDown(KeyCode.E)) {
-            currentActivator.Use();
+
+        if (inputEnabled) {
+            if (grounded && Input.GetKeyDown(KeyCode.Space))
+            {
+                // set velocity Y to zero for consistent jump height
+                rigBod.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+            }
+            else if (currentActivator && Input.GetKeyDown(KeyCode.E))
+            {
+                currentActivator.Use();
+                playerAnimator.SetTrigger("Pickup");
+                inputEnabled = false;
+            }
         }
+
 
         if (rigBod.velocity.x != 0 || rigBod.velocity.z != 0) {
             Vector3 temp = rigBod.velocity;
@@ -51,9 +66,19 @@ public class CharacterBaseMov3D : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-        movement = transform.forward * Input.GetAxis("Vertical");
+
+        float verticalMagnitude = 0, angularMagnitude = 0;
+
+        if (inputEnabled) {
+             verticalMagnitude = Input.GetAxis("Vertical");
+             angularMagnitude = Input.GetAxis("Horizontal");
+        }
+
+
+        movement = transform.forward * verticalMagnitude;
+        playerAnimator.SetFloat("MoveSpeed", verticalMagnitude);
         rigBod.MovePosition(rigBod.position + (movement * speed * Time.fixedDeltaTime));
-        Quaternion rotation = Quaternion.Euler(Vector3.up * Input.GetAxis("Horizontal") * angSpeed * Time.fixedDeltaTime);
+        Quaternion rotation = Quaternion.Euler(Vector3.up * angularMagnitude * angSpeed * Time.fixedDeltaTime);
         // aca podria cambiarse para variar la vision de camara, reemplazar "horiz" x Mouse X
         // Quaternion rotation = Quaternion.Euler(Vector3.up * Input.GetAxis("Mouse X") * angSpeed * Time.fixedDeltaTime);
         rigBod.MoveRotation(rotation * rigBod.rotation);
@@ -65,6 +90,12 @@ public class CharacterBaseMov3D : MonoBehaviour {
         Reposition(respawnData);
         CamBehaviour.main.Reposition(respawnData.position + CamBehaviour.main.data.followDistance);
     }
+
+    public void EnableInput() {
+        inputEnabled = true;
+    }
+
+
 
     public void Reposition(CharTransformData transformData) {
         rigBod.MovePosition(respawnData.position);
@@ -87,6 +118,7 @@ void OnCollisionStay (Collision collision) {
                 float inclination;
                 if ((inclination = Vector3.Dot(contact.normal, Vector3.up)) > 0.85f) {
                     grounded = true;
+                    playerAnimator.SetBool("Grounded", grounded);
                     groundCollection.Add(collision.collider);
                     if (collision.collider.CompareTag("MovingPlatform")) {
                         transform.SetParent(collision.transform);
@@ -112,6 +144,7 @@ void OnCollisionStay (Collision collision) {
 
         if (groundCollection.Count == 0) {
             grounded = false;
+            playerAnimator.SetBool("Grounded", grounded);
         }
 
     }
@@ -136,7 +169,7 @@ void OnCollisionStay (Collision collision) {
 	
 	void OnDrawGizmos () {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, transform.forward);
+        Gizmos.DrawRay(transform.position + Vector3.up, transform.forward);
 	}
 }
 
