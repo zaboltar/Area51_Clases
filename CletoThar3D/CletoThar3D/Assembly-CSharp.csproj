@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\FPS\Gun.cs" />
     <Compile Include="Assets\Scripts\FPS\Target.cs" />
     <Compile Include="Assets\Scripts\FPS\WeaponSwitching.cs" />
+    <Compile Include="Assets\Scripts\GameControl.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activatable.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activator.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Checkpoint.cs" />
