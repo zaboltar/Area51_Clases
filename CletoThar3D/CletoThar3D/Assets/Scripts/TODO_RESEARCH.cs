@@ -14,3 +14,6 @@ public class TODO_RESEARCH : MonoBehaviour {
 		
 	}
 }
+
+
+// pedirle a Hilble: cambio de camaras con 2 camaras + enemy AI + raycast to player to berserk
