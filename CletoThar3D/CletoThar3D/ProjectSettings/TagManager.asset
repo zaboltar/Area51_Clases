@@ -8,6 +8,7 @@ TagManager:
   - CamArea
   - MovingPlatform
   - Activator
+  - LevelGoal
   layers:
   - Default
   - TransparentFX

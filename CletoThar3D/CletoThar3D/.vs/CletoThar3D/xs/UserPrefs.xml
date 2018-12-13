@@ -1,6 +1,21 @@
 ﻿<Properties StartupConfiguration="{DC58C8AC-760D-130F-4F8D-C5A0BC59178B}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Entities/Player/CharacterBaseMov3D.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Camera/CamBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/Activatable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/Activator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/Checkpoint.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/PlatformBehaviour3D.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/PressurePlate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelElements/Switch.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ProjectNamespaces/StructLib.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ProjectNamespaces/VectorLib.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Entities/Player/CharacterBaseMov3D.cs" Line="16" Column="5" />
+      <File FileName="Assets/Scripts/Managers/UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Managers/GameControl.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

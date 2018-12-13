@@ -27,8 +27,14 @@ public class Activatable : MonoBehaviour {
         return linkedActivators.ToArray();
     }
 
-  
-	
+	protected virtual void Start() {
+        if (linkedActivators.Count == 0) {
+            OnStart();
+        }	
+	}
+
+
+
 
 	public virtual void OnStart ( ) {
 

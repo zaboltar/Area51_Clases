@@ -155,7 +155,14 @@ void OnCollisionStay (Collision collision) {
         if (other.CompareTag("Activator")) {
             other.GetComponent<Activator>();
             currentActivator = other.GetComponent<Activator>();
-        }	
+        }	else if (other.CompareTag("LevelGoal")) {
+            transform.SetParent(other.transform);
+            transform.localPosition = VectorExt.OneByeOneProduct(transform.localPosition, Vector3.up);
+            inputEnabled = false;
+            GameControl.instance.StartLevelChangeProcess(1);
+        }
+
+
 	}
 
 

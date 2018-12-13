@@ -18,13 +18,13 @@ public class PlatformBehaviour3D : Activatable {
 
 
     // Use this for initialization
-    void Start()
+    protected override void Start()
     {
         startPoint = transform.position;
         currentTarget = targetPoint;
 
         SetRenderValues();
-
+        base.Start();
 
     }
 
