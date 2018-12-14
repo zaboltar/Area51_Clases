@@ -34,15 +34,10 @@ public class GameControl : MonoBehaviour
 
     void ChangeLevel(int targetLevel){
         SceneManager.LoadScene(targetLevel);
-
-        //refresh current player
-
-        GameObject targetPlayer = GameObject.FindWithTag("Player");
-        if (targetPlayer) {
-            Debug.Log("Found: " + targetPlayer.name);
-            currentPlayer = targetPlayer.GetComponent<CharacterBaseMov3D>();
-        }
     }
+
+    
+    
 	
     public void StartRespawnProcess (){
         if (!inTransition) {
@@ -67,14 +62,12 @@ public class GameControl : MonoBehaviour
             yield return null;
         }
 
-        //yield return new WaitUntil( () => currentPlayer.grounded);
         currentPlayer.EnableInput();
         inTransition = false;
     }
 
     IEnumerator LevelChangeProcess(int index){
         yield return uIManager.FadeProcess(ChangeLevel, index);
-        //SceneManager.LoadScene();
         inTransition = false;
 
     }

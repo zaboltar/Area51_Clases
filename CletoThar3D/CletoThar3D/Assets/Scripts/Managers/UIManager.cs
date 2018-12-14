@@ -11,20 +11,24 @@ public class UIManager : MonoBehaviour {
     public Image fadePanel;
     public float fadeSpeed = 2f;
 
-    public IEnumerator FadeProcess(Action fadeCall, int invokeParam) {
-
+       public IEnumerator FadeProcess (Action fadeCall) {
         fadePanel.gameObject.SetActive(true);
         fadePanel.enabled = true;
         yield return FadeTo(1);
-
-        //external desired method should run here!
-
-        fadeCall.Invoke(invokeParam);
-
+        //EXTERNAL DESIRED METHOD SHOULD RUN HERE
+        fadeCall.Invoke();
+        //---------------------------------------
         yield return FadeTo(0);
+    }
 
-          
-    
+    public IEnumerator FadeProcess (Action<int> fadeCall, int invokeParam) {
+        fadePanel.gameObject.SetActive(true);
+        fadePanel.enabled = true;
+        yield return FadeTo(1);
+        //EXTERNAL DESIRED METHOD SHOULD RUN HERE
+        fadeCall.Invoke(invokeParam);
+        //---------------------------------------
+        yield return FadeTo(0);
     }
 
     IEnumerator FadeTo(int targetValue){
@@ -46,7 +50,6 @@ public class UIManager : MonoBehaviour {
         Color color = image.color;
         color.a = Mathf.MoveTowards(image.color.a, targetAlpha, speed);
         image.color = color;
-        Action<>;
     }
 
 

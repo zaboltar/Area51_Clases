@@ -37,6 +37,9 @@ public class CharacterBaseMov3D : MonoBehaviour {
         playerAnimator = GetComponent<Animator>();
         respawnData.position = transform.position;
         respawnData.rotation = transform.rotation;
+        if (!GameControl.instance.currentPlayer || GameControl.instance.currentPlayer != this) {
+            GameControl.instance.currentPlayer = this;
+        }
 	}
 
 	void Update () {
@@ -159,7 +162,8 @@ void OnCollisionStay (Collision collision) {
             transform.SetParent(other.transform);
             transform.localPosition = VectorExt.OneByeOneProduct(transform.localPosition, Vector3.up);
             inputEnabled = false;
-            GameControl.instance.StartLevelChangeProcess(1);
+            int goalIndex = other.GetComponent<LevelSelectorData>().levelIndex;
+            GameControl.instance.StartLevelChangeProcess(goalIndex);
         }
 
 
