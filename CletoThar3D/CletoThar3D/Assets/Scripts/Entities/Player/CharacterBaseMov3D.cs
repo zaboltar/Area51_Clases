@@ -37,9 +37,14 @@ public class CharacterBaseMov3D : MonoBehaviour {
         playerAnimator = GetComponent<Animator>();
         respawnData.position = transform.position;
         respawnData.rotation = transform.rotation;
-        if (!GameControl.instance.currentPlayer || GameControl.instance.currentPlayer != this) {
+
+        //IMPORTANTE => ESTO ESTA COMENTADO PARA Q FUNCIONE LA OTRA ESCENA! 
+        
+       /* if (!GameControl.instance.currentPlayer || GameControl.instance.currentPlayer != this) {
             GameControl.instance.currentPlayer = this;
-        }
+        }*/ 
+
+        //IMPORTANTE => ESTO ESTA COMENTADO PARA Q FUNCIONE LA OTRA ESCENA! 
 	}
 
 	void Update () {

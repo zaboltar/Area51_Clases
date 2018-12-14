@@ -9,7 +9,8 @@ public class GameControl : MonoBehaviour
     // crearemos un singleton
 
     static public GameControl instance;
-    public CharacterBaseMov3D currentPlayer;
+   // public CharacterBaseMov3D currentPlayer;
+    public Try2Adapt currentPlayer;
     bool inTransition;
     public UIManager uIManager;
 
