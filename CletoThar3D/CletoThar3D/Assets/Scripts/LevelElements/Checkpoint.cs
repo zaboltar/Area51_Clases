@@ -18,7 +18,13 @@ public class Checkpoint : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other) {
         if (other.CompareTag("Player")) {
+
+        	// ESTO ESTA ACA PARA Q FUNCIONE LA ESCENA DEL PROJ
+
            // other.GetComponent<CharacterBaseMov3D>().SetRespawn(pointData);
+
+        	// ESTO ESTA ACA PARA Q FUNCIONE LA ESCENA DEL PROJ
+        	
             other.GetComponent<Try2Adapt>().SetRespawn(pointData);
         }
 	}
