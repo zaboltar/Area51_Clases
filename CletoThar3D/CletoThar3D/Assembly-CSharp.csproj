@@ -61,9 +61,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\CamBehaviour.cs" />
     <Compile Include="Assets\Scripts\Camera\CustomCamArea.cs" />
+    <Compile Include="Assets\Scripts\Entities\LevelTraps\PushBlock.cs" />
     <Compile Include="Assets\Scripts\Entities\Player\CharacterBaseMov3D.cs" />
+    <Compile Include="Assets\Scripts\FPS\AI Test\ZombieFollow.cs" />
     <Compile Include="Assets\Scripts\FPS\Gun.cs" />
+    <Compile Include="Assets\Scripts\FPS\lupustein3d\dooropenfirst.cs" />
+    <Compile Include="Assets\Scripts\FPS\lupustein3d\HandGunFire.cs" />
+    <Compile Include="Assets\Scripts\FPS\lupustein3d\handgunPickUp.cs" />
     <Compile Include="Assets\Scripts\FPS\Target.cs" />
+    <Compile Include="Assets\Scripts\FPS\Try2Adapt.cs" />
     <Compile Include="Assets\Scripts\FPS\WeaponSwitching.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activatable.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Activator.cs" />
@@ -72,19 +78,26 @@
     <Compile Include="Assets\Scripts\LevelElements\PressurePlate.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Switch.cs" />
     <Compile Include="Assets\Scripts\Managers\GameControl.cs" />
+    <Compile Include="Assets\Scripts\Managers\LevelSelectorData.cs" />
     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\ProjectNamespaces\ProjectStatesLib.cs" />
     <Compile Include="Assets\Scripts\ProjectNamespaces\StructLib.cs" />
     <Compile Include="Assets\Scripts\ProjectNamespaces\VectorLib.cs" />
+    <Compile Include="Assets\Scripts\Survival\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Survival\Item.cs" />
+    <Compile Include="Assets\Scripts\Survival\ItemPickUo.cs" />
+    <Compile Include="Assets\Scripts\Survival\Player.cs" />
+    <Compile Include="Assets\Scripts\Survival\Slots.cs" />
     <Compile Include="Assets\Scripts\TODO_RESEARCH.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
-    <None Include="Assets\Resources\sci fi weap pack\README.txt" />
+    <None Include="Assets\Resources\ObjectsAduana\sci fi weap pack\README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/alumno/Documents/Area51_Clases/CletoThar3D/CletoThar3D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/alumno/Documents/GitHub/Area51_Clases/CletoThar3D/CletoThar3D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/alumno/Documents/Area51_Clases/CletoThar3D/CletoThar3D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/alumno/Documents/GitHub/Area51_Clases/CletoThar3D/CletoThar3D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

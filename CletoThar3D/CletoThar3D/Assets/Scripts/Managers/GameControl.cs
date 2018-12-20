@@ -11,7 +11,7 @@ public class GameControl : MonoBehaviour
     static public GameControl instance;
    // public CharacterBaseMov3D currentPlayer;
     public Try2Adapt currentPlayer;
-    bool inTransition;
+    public bool inTransition { get; private set; }
     public UIManager uIManager;
 
     public int currentLevel { get { return SceneManager.GetActiveScene().buildIndex; } }
