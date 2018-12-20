@@ -6,8 +6,9 @@ public class Activatable : MonoBehaviour {
 
     // cuidado con los nobmres q ya estan reservados, como OnEnabled, OnDisabled o Pepe.
     // cuando se ejecuta el programa compilado, corre el main thread, linea x linea
-    // ejecuta procesos asyncronos
+    
     // los coroutines emulan el proceso de multithreading, son async dentro del contexto de unity
+    // las cor ejecutan procesos asyncronos
     // el multithreading se usa para procesos especificos, como networking, online o multiplayer
     // coroutines es algo como un orden in layer de los procesos
     // con iennumerator se puede jerarquizar el orden de las rutinas

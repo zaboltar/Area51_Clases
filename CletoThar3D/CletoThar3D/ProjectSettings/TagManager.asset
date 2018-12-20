@@ -9,6 +9,8 @@ TagManager:
   - MovingPlatform
   - Activator
   - LevelGoal
+  - item
+  - slot
   layers:
   - Default
   - TransparentFX
